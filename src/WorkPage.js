@@ -18,12 +18,12 @@ export default () => {
     <WorkPanel target='/project-a' backgroundStyle='gd1' imagePath='assets/p1.png'>
       <div className='workPanelCategory'>UI / UX Design</div>
       <div className='workPanelTitle'>I was here</div>
-      <div className='workPanelDescription'>An application that helps travelers to easily record their trips and manage their travel budget using their credit card.</div>
+      <div className='workPanelDescription'>An application that helps travelers to easily record their trips and manage their travel budget from their credit card transactions.</div>
     </WorkPanel>
     <WorkPanel target='/project-b' backgroundStyle='gd2' imagePath='assets/p2.png' right={ true }>
       <div className='workPanelCategory'>UI / UX Design</div>
       <div className='workPanelTitle'>Social Table</div>
-      <div className='workPanelDescription'>Social table is an app that provides a social container for reducing food waste.</div>
+      <div className='workPanelDescription'>Social table is an app that provides an effective solution for reducing food waste.</div>
     </WorkPanel>
     <WorkPanel target='/project-c' backgroundStyle='gd3' imagePath='assets/p3.png'>
       <div className='workPanelCategory'>UI / UX Design</div>

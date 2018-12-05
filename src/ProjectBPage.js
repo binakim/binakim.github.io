@@ -25,7 +25,7 @@ class ProjectB extends Component {
         <div className='col-12 col-lg-5 projectTitle'>
           <div className='topPanelCategory'>UI / UX Design</div>
           <div className='topPanelTitle'>Social Table</div>
-          <div className='topPanelDescription'>Social table is an app that provides a social container for reducing food waste.</div>
+          <div className='topPanelDescription'>Social table is an app that provides an effective solution for reducing food waste.</div>
         </div>
 
 
@@ -33,7 +33,7 @@ class ProjectB extends Component {
         <div className='sectionPanel col-12'>
             <div className='section textOnly'>INTRO</div>
             <div className='content'>
-            I've been interested in food waste for a long time.  Last summer vacation, I want to donate some of my food ingredients because I go on a long trip. I found some app for food sharing or donation, but they mostly look not an activation. Through this project, I want to design the app for food waste reducing to create an effective solution.
+            I've been interested in food waste for a long time.  In summer of 2018, I wanted to donate some of my food ingredients because I went on a long trip. I found some apps for food sharing and donation, but there were minimal activities on the app.  Through this project, I wanted to design an app that provides effective solution for reducing food waste.
             </div>
         </div>
 
@@ -74,18 +74,18 @@ class ProjectB extends Component {
               <div className='font-weight-bold content'>Good</div>
               <div className='subtitle entry content'>Meal sharing </div>
               <div className='content'>
-                Provides very detailed information because the service you provide is food.
-                They made a request by putting a guide message on the request page.
+                Provides detailed information.
+                Guidance message on the request page.
                 Members must verify their phone number and email.
-                It also works in conjunction with social identity.
-                Show membership date and activity history.s
+                It also works in conjunction with social identity such as Facebook.
+                Shows account creation date and activity history.
               </div>  
             </div> 
             <div className='col-12 col-md-6'>
               <div className='font-weight-bold content'>Bad</div>
               <div className='subtitle entry content'>Food For All </div>
               <div className='content'>
-                There is no review for the foods. If it has reviews, it would help to choose the foods. 
+                There is no review for the foods. Reviews would help with choosing the foods. 
               </div>
             </div>
           </div>
@@ -100,14 +100,14 @@ class ProjectB extends Component {
               <div className='font-weight-bold content'>Good</div>
               <div className='subtitle entry content'>Food Runners </div>
               <div className='content'>
-                They are helping individuals and companies to make food donations easier through food pickup service.
-    As a food pickup volunteer, you can help this company.
-    Restaurants You can donate food in a variety of ways, including food and homemade food.
+                They help individuals and companies to make food donations easier via food pickup service.
+    As a food pickup volunteer, you help Food Runners.
+    You can donate variety food including food ingredients and homemade food.
               </div>  
               <div className='subtitle entry content'>Food For All </div>
               <div className='content'>
-                Each time you participate in the service, you earn points to give additional benefits.
-    In addition to food donations, user can add donations to organizations, or donate money.
+                Each time you participate in the service, you earn points that give additional benefits.
+    In addition to food donations, you can donate money and also target the donation to organizations.
               </div> 
             </div>  
             <div className='col-12 col-md-6'>
@@ -133,7 +133,7 @@ class ProjectB extends Component {
               <div className='font-weight-bold content'>Good</div>
               <div className='subtitle entry content'>Food For All </div>
               <div className='content'>
-                Create intuitive and intuitive design through illustrations and icons.
+                Create intuitive design through illustrations and icons.
     The most important buttons in the page are designed to be noticeable.
               </div> 
             </div>  
@@ -230,15 +230,15 @@ class ProjectB extends Component {
           <div className='subtitle content'>Results</div>  
           <div className='subtitle content'>Donation Box</div>  
           <div className='content'>
-          Deliver the donation box to user who requested the donation on the app. Put the food ingredient in the box, and sent the box to the company by free.
+          Deliver the donation box to the user that requested the donation box on the app. Put the food ingredient in the box, and send the box to the company at no charge.
           </div>
           <div className='subtitle content'>Cooking event</div>
            <div className='content'>
-          Having cooking event with neighbors. Give some notification about event. User bring their left over foods or ingredients and volunteers teach how to cook.  
+          Have a cooking event with neighbors. Users bring their left over foods or ingredients. Volunteers teach cooking.
           </div>
           <div className='subtitle content'>Pick up request</div>
           <div className='content'>
-          Many left over food you have after party? User can request to pick up foods for donation.
+          Much left over food after a party? User can request a food pick up for donation.
           </div>
           </div>
         </div>
@@ -263,7 +263,7 @@ class ProjectB extends Component {
                <div className='subtitle entry content'>Findings</div>
               <div className='content'>
                 More than 50% of participants make food waste because <br/>
-                “Busy, or they for got the expiration date” 
+                “Busy or they forgot the expiration date” 
               </div>
               <div className='content'>
                 47% of participants had experience of donation food.
@@ -272,8 +272,8 @@ class ProjectB extends Component {
                 More than 50% of participants like share foods with friends. 
               </div>
               <div className='content'>
-                72% of participants Won’t use the app because <br/>
-                “I can’t believe other people.”
+                72% of participants won’t use the app because <br/>
+                “I can’t trust the food nor the people.”
               </div>
               </div>
                <div className='col-12'>
@@ -305,7 +305,7 @@ class ProjectB extends Component {
              <div className='sectionImage'>
              <img className='fitImage' src='assets/p2/p2_10.jpg' data-rjs="2"/>
              </div>
-             <div className='subtitle content'>Apply the volunteer</div>
+             <div className='subtitle content'>Apply to be a volunteer</div>
              <div className='sectionImage'>
              <img className='fitImage' src='assets/p2/p2_11.jpg' data-rjs="2"/>
              </div>
@@ -341,28 +341,28 @@ class ProjectB extends Component {
             <div className='col-12'>
               <div className='font-weight-bold content'>Script</div>  
               <div className='content'>
-              Open the app and check the ingredient. Set the product list by nearby you. Is it easy to set the list?<br/>
-              Explore the list and choose what you need or want. Why did you choose that product? Is it enough information for choosing the product on the list page?<br/>
-              Check the product page. Is it enough information for choosing the product? <br/>
-              Request the product to seller. What information do you more want for the request? 
+              Open the app and check the ingredient. Set the product list option to "nearby". Is it easy to set the list?<br/>
+              Explore the list and choose what you need or want. Why did you choose that product? Is there enough information for choosing the product on the list page?<br/>
+              Check the product page. Is there enough information for choosing the product? <br/>
+              Request the product from seller. What additional information do you want for the request? 
               </div>
               <img className='fitImage sectionImage' src='assets/p2/p2_7.jpg' data-rjs="2"/>
             </div>
             <div className='col-12'>
               <div className='font-weight-bold content'>Result</div>
-              <div className='subtitle entry content'>Improve </div>
+              <div className='subtitle entry content'>Need improvement</div>
               <div className='content'>
-                Provide reliable contents ( product/ profile)<br/>
-                Exact request system ( date,time set )
+                Provide reliable contents ( product / profile )<br/>
+                Timestamps on request ( date, time )
               </div>
               <div className='subtitle entry content'>New discoveries </div>
               <div className='content'>
-                Product location is important for the user.<br/>
-                User can donation, but they won’t get the products.
+                Product location is important to the user.<br/>
+                User would like to donate food, but they do not want to receive food from others.
               </div>
               <div className='subtitle entry content'>Similar behaviors</div>
               <div className='content'>
-                The user  wants to get the packaged products. 
+                User wants to get the packaged products such as canned goods. 
               </div>
             </div>
           </div>
@@ -390,10 +390,9 @@ class ProjectB extends Component {
                                 This project is focused on user testing and research. 
                                  I have developed various solutions to reduce food waste 
                                  through several user tests. In the beginning, I simply 
-                                 planned to post their own food ingredients, 
-                                 but I found that there were various hurdles to donate 
-                                 food through user interviews and tests, 
-                                 so I planned to organize food-making events and 
+                                 planned to post user owned food ingredients, 
+                                 but through user interviews and tests, I found out that there were various hurdles to donating 
+                                 food.  Thus I designed features that makes food donation easy such as food-cooking events and 
                                  food donation boxes.
                 </div>
               </div>
