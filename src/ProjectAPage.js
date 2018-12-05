@@ -327,8 +327,6 @@ class ProjectA extends Component {
           <div className='section'>WIREFRAMES</div>
           <div className='fullImage darkGrayBackground'>
             <img className='fitImage' src='assets/p-a/p1_15.png' data-rjs="2"/>
-            <img className='fitImage' src='assets/p-a/p1_15_2.jpg' data-rjs="2"/>
-            <img className='fitImage' src='assets/p-a/p1_15_3.jpg' data-rjs="2"/>
           </div>
         </div>
         <div className='sectionPanel col-12'>

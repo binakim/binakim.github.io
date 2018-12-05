@@ -381,7 +381,7 @@ class ProjectB extends Component {
     {/*wireframe*/}
         <div className='sectionPanel col-12'>
             <div className='section image'>WIREFRAME</div>
-            <img className='fitImage' src='assets/p2/p2_15.jpg' data-rjs="2"/>
+            <img className='fitImage' src='assets/p2/p2_15.png' data-rjs="2"/>
         </div>
 
     {/*final*/}

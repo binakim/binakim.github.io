@@ -197,11 +197,11 @@ class ProjectC extends Component {
         <div className='sectionPanel col-12'>
           <div className='section image'>proof of concept</div>
           <div className='font-weight-bold content'>Face Verification</div>
-          <img className='sectionImage fitImage' src='assets/p3/p3_9.png' data-rjs="2"/>
+          <img className='sectionImage fitImage' src='assets/p3/p3_9.jpg' data-rjs="2"/>
           <div className='font-weight-bold content'>ID Scan</div>
-          <img className='sectionImage fitImage' src='assets/p3/p3_9_2.png' data-rjs="2"/>
+          <img className='sectionImage fitImage' src='assets/p3/p3_9_2.jpg' data-rjs="2"/>
           <div className='font-weight-bold content'>Verified</div>
-          <img className='sectionImage fitImage mb-0' src='assets/p3/p3_9_3.png' data-rjs="2"/>
+          <img className='sectionImage fitImage mb-0' src='assets/p3/p3_9_3.jpg' data-rjs="2"/>
         </div>
         <div className='sectionPanel col-12'>
           <div className='section image'>prototype</div>
