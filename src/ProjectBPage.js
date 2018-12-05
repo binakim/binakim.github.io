@@ -369,6 +369,29 @@ class ProjectB extends Component {
             <div className='section image'>FINAL DESIGN</div>
             <img className='fitImage' src='assets/p2/p2_16.jpg' data-rjs="2"/>
         </div>
+        <div className='sectionPanel col-12'>
+          <div className='fullPaddedSection conclusion'>
+            <div className='container-fluid text-left'>
+              <div className='col-12'>
+                <div className='section textOnly'>CONCLUSION</div>
+                <div className='content'>
+                                This project is focused on user testing and research. 
+                                 I have developed various solutions to reduce food waste 
+                                 through several user tests. In the beginning, I simply 
+                                 planned to post their own food ingredients, 
+                                 but I found that there were various hurdles to donate 
+                                 food through user interviews and tests, 
+                                 so I planned to organize food-making events and 
+                                 food donation boxes.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
       </div>
       <ProjectNav 
         prev={{
