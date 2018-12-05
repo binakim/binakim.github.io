@@ -49,8 +49,13 @@ class ProjectB extends Component {
         </div>
 
         <div className='sectionPanel col-12'>
+          <div className='section image'>PROOF OF CONCEPT</div>
+          <img className='fitImage' src='assets/p2/p2_18.jpg' data-rjs="2"/>
+        </div>
+
+        <div className='sectionPanel col-12'>
           <div className='section image'>COMPETITORS</div>
-          <img className='fitImage' src='assets/p2/p2_2.jpg' data-rjs="2"/>
+          <img className='fitImage' src='assets/p2/p2_2.png' data-rjs="2"/>
         </div>
 
         <div className='sectionPanel col-12'>
@@ -294,7 +299,7 @@ class ProjectB extends Component {
     {/*IA*/}
         <div className='sectionPanel col-12'>
             <div className='section image'>INFORMATION ARCHITECTURE</div>
-            <img className='fitImage' src='assets/p2/p2_14.jpg' data-rjs="2"/>
+            <img className='fitImage' src='assets/p2/p2_14.png' data-rjs="2"/>
         </div>
 
 

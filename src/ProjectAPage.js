@@ -31,7 +31,7 @@ class ProjectA extends Component {
           <div className='section textOnly'>OVERVIEW</div>
           <div className='content'>
                 According to research, the most frequently
-            issued credit card in 2017 is the Chase
+            issued credit card in 2017 is Chase
             Sapphire Preferred Card. Many credit card
             companies are selling cards with travel
             benefits to follow growing demand for
