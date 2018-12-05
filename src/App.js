@@ -32,7 +32,7 @@ class App extends Component {
       <Router basename={process.env.PUBLIC_URL}>
         <div>
           <TopButton target={this.parallaxRef} showTopButton={this.state.showTopButton} />
-          <Div100vh ref={this.parallaxRef} id='parallax-container' className='parallax-container'>
+          <div ref={this.parallaxRef} id='parallax-container' className='parallax-container'>
             <div className="App container-fluid">
               <Header className="Header" />
               <TopDetector dispatch={this.dispatch} />
@@ -44,7 +44,7 @@ class App extends Component {
               <Route path='/project-d' component={ProjectDPage} />
               <Footer />
             </div>
-          </Div100vh>
+          </div>
         </div>
       </Router>
     );
