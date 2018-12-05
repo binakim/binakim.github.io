@@ -412,6 +412,7 @@ a:hover::after {
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 10px;
+  -webkit-overflow-scrolling: touch;
 }
 
 .hide {
