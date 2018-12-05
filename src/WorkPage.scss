@@ -84,7 +84,7 @@
 }
 
 .workPanelCategory {
-  @extend h6;
+  @extend h5;
   @extend %content-heading-margin;
 }
 
@@ -94,13 +94,13 @@
 }
 
 .workPanelDescription {
-  @extend h6;
+  @extend h5;
   @extend %title-margin;
   font-weight: lighter;
 }
 
 .workPanelSeeCaseStudy {
-  @extend h6;
+  @extend h5;
   @extend %section2-margin;
 
   a {
