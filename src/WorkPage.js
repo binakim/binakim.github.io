@@ -17,7 +17,7 @@ export default () => {
     </CenteredPage>
     <WorkPanel target='/project-a' backgroundStyle='gd1' imagePath='assets/p1.png'>
       <div className='workPanelCategory'>UI / UX Design</div>
-      <div className='workPanelTitle'>I was here</div>
+      <div className='workPanelTitle'>I Was Here</div>
       <div className='workPanelDescription'>An application that helps travelers to easily record their trips and manage their travel budget from their credit card transactions.</div>
     </WorkPanel>
     <WorkPanel target='/project-b' backgroundStyle='gd2' imagePath='assets/p2.png' right={ true }>
@@ -27,7 +27,7 @@ export default () => {
     </WorkPanel>
     <WorkPanel target='/project-c' backgroundStyle='gd3' imagePath='assets/p3.png'>
       <div className='workPanelCategory'>UI / UX Design</div>
-      <div className='workPanelTitle'>Show me ID</div>
+      <div className='workPanelTitle'>Show Me ID</div>
       <div className='workPanelDescription'>Show me ID is an app that provides ID verification forthe web and products</div>
     </WorkPanel>
     <WorkPanel target='/project-d' backgroundStyle='gd4' imagePath='assets/p4.png' right={ true } last={ true}>

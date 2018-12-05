@@ -31,7 +31,7 @@ class ProjectA extends Component {
           <div className='section textOnly'>OVERVIEW</div>
           <div className='content'>
                 According to research, the most frequently
-            issued credit card in 2017 is Chase
+            issued credit card in 2017 was Chase
             Sapphire Preferred Card. Many credit card
             companies are selling cards with travel
             benefits to follow growing demand for
@@ -50,11 +50,11 @@ class ProjectA extends Component {
           <div className='row'>
             <div className='col-12 col-md-5'>
               <div className='content'>
-                    Many people want to leave travel records
-                after their trip. However most of the workers
+                    Many people want to have a travel records
+                of their trip. However most of the workers
                 are busier after traveling, and the
                 information such as the place, the location,
-                etc. that traveled over time becomes
+                etc.traveled over that time becomes
                 increasingly difficult to remember. In
                 addition, many people have spent more
                 money than they thought during a trip.How
@@ -176,7 +176,7 @@ class ProjectA extends Component {
               </div>
               <div>
                 <div className='insight_statement'>“What is different from saving on Google Maps?”</div>
-                <div className='insight_name'>Jun (32 years old, graphic designer)</div>
+                <div className='insight_name'>Jun (32 years old, Graphic Designer)</div>
               </div>
             </div>
             <div className='insight_summary order-7 order-md-5 col-12 col-md-6'>
@@ -188,7 +188,7 @@ class ProjectA extends Component {
               </div>
               <div>
                 <div className='insight_statement'>“How to show the whole journey, if I move by car or bicycle?”</div>
-                <div className='insight_name'>Michael (37 years old, Finance manager)</div>
+                <div className='insight_name'>Michael (37 years old, Finance Manager)</div>
               </div>
             </div>
             <div className='insight_summary order-8 order-md-7 col-12 col-md-6'>
@@ -213,8 +213,9 @@ class ProjectA extends Component {
                 <div className='section'>SOLUTION</div>
                 <div className='title narrow content'>
                     Create a travel journal & manage travel
-                  budget by recording the card data and photo
-                  exif data used during travel.
+                  budget </br>
+                  by recording the card data and photo
+                  Exif data used during travel.
                 </div>
                 <div className='content'>
                   <img className='fitImage' src='assets/p-a/p1_9.png' data-rjs="2"/>
@@ -249,12 +250,12 @@ class ProjectA extends Component {
                   <div className='persona_content twoColLayout'>
                     <div className='persona_quote'>“I enjoy traveling around the country on weekends and traveling abroad on a long vacation. I like local shopping and going to local restaurants.”</div>
                     <div className='persona_env'>Environment</div>
-                    <div className='persona_text'>I've been working for as a UX designer for 7 years. I work sometimes until late but, I can take a long trip. Mostly I go on a long trip once a year.  I just finished a big project so, I will go on a long trip to Iceland for 10 days.  I love to eat local foods and buy local products. I mostly use my credit card when I go to trip, because my credit card has no foreign transaction fees.</div>
+                    <div className='persona_text'>I've been working as a UX designer for 7 years. I work sometimes until late but, I can take a long trip. Mostly I go on a long trip once a year.  I just finished a big project so, I will go on a long trip to Iceland for 10 days.  I love to eat local foods and buy local products. I mostly use my credit card when I go to trip, because my credit card has no foreign transaction fees.</div>
                     <div className='persona_env'>Goal</div>
                     <div className='persona_text'>Due to my travel style, I usually spend money a lot of travel. I need to manage my trip budget. 
         Also, I usually make a trip journal after the trip, because I want to remember that moment.</div>
                     <div className='persona_env'>Challenges</div>
-                    <div className='persona_text'>During the trip, I just focus on my trip and I can’t care about my budget as well and , it’s hard to memorize or mark every single place.</div>
+                    <div className='persona_text'>During the trip, I just focus on my vacation and I tend to lose track of my budget as well as memorize or mark every single place I've been to.</div>
                   </div>
                   <div className='persona_profile twoColLayout'>
                      <img src='assets/p-a/p1_11_2.png' data-rjs="2"/>
@@ -268,13 +269,13 @@ class ProjectA extends Component {
                      </div>
                   </div>
                   <div className='persona_content twoColLayout'>
-                    <div className='persona_quote'>“I pay everything with my travel credit card. Because I can check the places that I visited.”</div>
+                    <div className='persona_quote'>“I pay for everything with my travel credit card. Because I can check the places that I visited.”</div>
                     <div className='persona_env'>Environment</div>
-                    <div className='persona_text'>I've been working for as a Digital Marketer for 7 years. I goes on a short trip twice a month and a long trip once a year. I mostly use my credit card when I go to trip, because I can check the places that I visited. I just came back from my honeymoon, and I’m planning to write a blog.</div>
+                    <div className='persona_text'>I've been working as a Digital Marketer for 7 years. I go on short trips twice a month and a long trip once a year. I mostly use my credit card when I go on trips, because I can check the places that I visited. I just came back from my honeymoon, and I’m planning to write a blog.</div>
                     <div className='persona_env'>Goal</div>
-                    <div className='persona_text'>I try to make a trip journal after the trip, because I want to remember that moment.</div>
+                    <div className='persona_text'>I try to make a trip journal after the trip, because I want to remember those moments.</div>
                     <div className='persona_env'>Challenges</div>
-                    <div className='persona_text'>Mostly I’ m so busy to work after the trip. Also it’s hard to remember the places I went.</div>
+                    <div className='persona_text'>Mostly I’ m so busy with work after the trip so I don't have a time to create a journal. Also it’s hard to remember the places I went.</div>
                   </div>
                   <div className='persona_profile twoColLayout'>
                     <img src='assets/p-a/p1_11_3.png' data-rjs="2"/>
@@ -288,13 +289,13 @@ class ProjectA extends Component {
                     </div>
                   </div>
                   <div className='persona_content twoColLayout'>
-                    <div className='persona_quote'>“When I goes on a trip, I pay for hotels and flights with a credit card which has travel rewards.”</div>
+                    <div className='persona_quote'>“When I go on a trip, I pay for hotels and flights with a credit card which has travel rewards.”</div>
                     <div className='persona_env'>Environment</div>
-                    <div className='persona_text'>I’m an English teacher and musician. I go on a long trip three times a year to meet my girlfriend. I love to go to Europe and I use credit card and cash both.</div>
+                    <div className='persona_text'>I’m an English teacher and musician. I go on long trips three times a year to meet my girlfriend. I love going to Europe and I use my credit card and cash.</div>
                     <div className='persona_env'>Goal</div>
                     <div className='persona_text'>I want to save money on foreign exchange because I travel a lot in Europe.</div>
                     <div className='persona_env'>Challenges</div>
-                    <div className='persona_text'>I mostly use credit card during a trip, but many Europe stores didn’t accept credit card.</div>
+                    <div className='persona_text'>I mostly use my credit card during a trip, but many European stores don’t accept credit cards.</div>
                   </div>
                 </div>
               </div>
@@ -314,7 +315,7 @@ class ProjectA extends Component {
                 <div className='section'>SIMULATION TEST</div>
                 <div className='sim_content'>
                   <div className='subtitle'>Route Test</div>
-                  <div className='sim_description'>Drawing the route based on the card payment</div>
+                  <div className='sim_description'>Drawing the route based on credit card payment history.</div>
                   <img className='fitImage' src='assets/p-a/p1_13.jpg' data-rjs="2"/>
                 </div>
                 <div className='sim_content'>

@@ -170,7 +170,7 @@ class ProjectD extends Component {
               <div className='col-12'>
                 <div className='section textOnly'>CONCLUSION</div>
                 <div className='content'>
-                                  The project was the first financial company to 
+                                  The project was a first for a financial company to 
                                   create an independent video streaming project. 
                                   We conducted various UX tests on how to plan channels 
                                   that fit the company's promotional direction and how to 
@@ -178,7 +178,7 @@ class ProjectD extends Component {
                                   for effective content exposure, we designed algorithms by 
                                     collaborating with data analysis team. Due to the nature 
                                   of video files, various tests were required for each browser 
-                                  nd device, and UX was also customized.
+                                  and device, and UX design was also customized.
                 </div>
               </div>
             </div>

@@ -33,7 +33,7 @@ class ProjectB extends Component {
         <div className='sectionPanel col-12'>
             <div className='section textOnly'>INTRO</div>
             <div className='content'>
-            I've been interested in food waste for a long time.  In summer of 2018, I wanted to donate some of my food ingredients because I went on a long trip. I found some apps for food sharing and donation, but there were minimal activities on the app.  Through this project, I wanted to design an app that provides effective solution for reducing food waste.
+            I've been interested in food waste problems for a long time. In summer of 2018, I wanted to donate some of my excess food ingredients because I went on a long trip. I found some apps for food sharing and donation, but there were minimal activities on the app.  Through this project, I wanted to design an app that provides effective solution for reducing food waste.
             </div>
         </div>
 
@@ -167,14 +167,14 @@ class ProjectB extends Component {
                     </div>
                   </div>
                   <div className='persona_content twoColLayout'>
-                    <div className='persona_quote'>“I do not want to waste food during the test or vacation.”</div>
+                    <div className='persona_quote'>“I throw away a lot of food at the end of every semester, I do not want to waste anymore food”</div>
                     <div className='persona_env'>Bio</div>
-                    <div className='persona_text'>She is a college student majored business. she is from India originally, and she likes cooking indian food. Sometimes she cooks food and brings that at school. She likes sharing her recipe with her friends and cooking together. Also, she buys ingredients for cooking with her roommates because they can save money. 
+                    <div className='persona_text'>She is a college student majoring Business. She is originally from India, and she likes cooking indian food. Sometimes she cooks food and brings that at to school. She likes sharing her recipes with her friends and cooking together. Also, she buys ingredients for cooking with her roommates because they can save money. 
           Sometimes they exchange their remaining ingredients.</div>
                     <div className='persona_env'>Goal</div>
-                    <div className='persona_text'>She doesn’t want to abandon the remaining food ingredients. She want to save money on buying food ingredients.</div>
+                    <div className='persona_text'>She doesn’t want to waste the remaining food ingredients, she wants to save money.</div>
                     <div className='persona_env'>Frustration</div>
-                    <div className='persona_text'>At the end of the test period, there is no time to cook and the remaining food items are discarded. When I go to my hometown during vacation, there are many food ingredients that can not be eaten anymore.</div>
+                    <div className='persona_text'>During finals, there is no time to cook and the remaining food items are discarded. When I go home during my vacation, there are many food ingredients that can expired.</div>
                   </div>
                   <div className='persona_profile twoColLayout'>
                     <img src='assets/p2/p1_9_4.png' data-rjs="2"/>
@@ -188,13 +188,13 @@ class ProjectB extends Component {
                     </div>
                   </div>
                   <div className='persona_content twoColLayout'>
-                    <div className='persona_quote'>“Because I cook only on weekends, the leftovers often go bad.”</div>
+                    <div className='persona_quote'>“Because I only cook on weekends, leftovers often go bad.”</div>
                     <div className='persona_env'>Bio</div>
-                    <div className='persona_text'>He is a software engineer in San Francisco. He eats breakfast, lunch at work, and dinner sometimes at home. However, when there is a lot of meetings, he has dinner outside. He is interested in cooking recently, so sometimes cook on weekends. He commutes by bicycles because he is interested in environmental protection.</div>
+                    <div className='persona_text'>He is a software engineer in San Francisco. He eats breakfast, lunch at work, and sometimes dinner at home. However, when there is a lot of meetings, he eats out for dinner. Recently he is interested in cooking, so sometimes he cooks on the weekends. He commutes by bicycles because he is interested in environmental protection.</div>
                     <div className='persona_env'>Goal</div>
                     <div className='persona_text'>He wants to learn how to use food ingredients. He wants to donate food that he doesn’t use. He doesn’t want to waste foods from cooking on weekend.</div>
                     <div className='persona_env'>Frustration</div>
-                    <div className='persona_text'>There are some ingredients that he doesn’t know about that ,so he doesn’t use and discarded. There are a lot of food ingredients go bad, becuase hecan not cook often.</div>
+                    <div className='persona_text'>There are some ingredients that he doesn’t know about that ,so he ends up discarding them. There are a lot of food ingredients that go bad, becuase he doesn't have enought time to cook.</div>
                   </div>
                   <div className='persona_profile twoColLayout'>
                      <img src='assets/p2/p1_9_5.png' data-rjs="2"/>
@@ -208,9 +208,9 @@ class ProjectB extends Component {
                      </div>
                   </div>
                   <div className='persona_content twoColLayout'>
-                    <div className='persona_quote'>“I forgot what I bought many times, because I bought many foods at once.”</div>
+                    <div className='persona_quote'>“Sometimes I forgot what I bought, because I bought many things at once.”</div>
                     <div className='persona_env'>Bio</div>
-                    <div className='persona_text'>She is a college instructor teachs biology. She lives with her 13- and 8-year-old two sons and her husband. She goes to school three times a week and teach students. She usually has dinner at home with her family. She is too busy to go shopping often, so she buy lots of food ingredients at once. she lives in an apartment for a long time, know my neighbors well, and sometimes have a barbecue.</div>
+                    <div className='persona_text'>She is a college instructor who teachs biology. She lives with her 13- and 8-year-old sons and her husband. She goes to school three times a week to teach students. She usually has dinner at home with her family. She is too busy to go shopping often, so she buy lots of food ingredients at once. She has lived in an apartment for a long time, knows her neighbors well, and sometimes has a barbecue.</div>
                     <div className='persona_env'>Goal</div>
                     <div className='persona_text'>She want to share the left ingredients with neighbors.</div>
                     <div className='persona_env'>Frustration</div>
@@ -223,7 +223,7 @@ class ProjectB extends Component {
         </div>
         <div className='sectionPanel col-12'>
           <div className='section image'>IDEATION</div>
-          <div className='subtitle content'>Brainstoming with crazy 8's </div>
+          <div className='subtitle content'>Brainstoming with Crazy 8's </div>
           <img className='fitImage sectionImage' src='assets/p2/p2_12.jpg' data-rjs="2"/>
 
           <div className='col-12'>
@@ -234,11 +234,11 @@ class ProjectB extends Component {
           </div>
           <div className='subtitle content'>Cooking event</div>
            <div className='content'>
-          Have a cooking event with neighbors. Users bring their left over foods or ingredients. Volunteers teach cooking.
+          Have a cooking event with neighbors. Users bring their leftover food or other ingredients. Volunteers teach cooking.
           </div>
           <div className='subtitle content'>Pick up request</div>
           <div className='content'>
-          Much left over food after a party? User can request a food pick up for donation.
+          Many leftovers after a party? User can request a food pick up for donation.
           </div>
           </div>
         </div>
@@ -341,7 +341,7 @@ class ProjectB extends Component {
             <div className='col-12'>
               <div className='font-weight-bold content'>Script</div>  
               <div className='content'>
-              Open the app and check the ingredient. Set the product list option to "nearby". Is it easy to set the list?<br/>
+              Open the app and check the ingredient. Set the product list option to "Nearby". Is it easy to set the list?<br/>
               Explore the list and choose what you need or want. Why did you choose that product? Is there enough information for choosing the product on the list page?<br/>
               Check the product page. Is there enough information for choosing the product? <br/>
               Request the product from seller. What additional information do you want for the request? 
