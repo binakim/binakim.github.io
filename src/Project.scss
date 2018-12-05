@@ -316,12 +316,12 @@
     }
 
     .p1_3 {
-      width: 200%;
-      transform: translateX(-27%);
+      width: 100%;
+      transform: translateX(0);
     }
 
     .p1_4 {
-      width: 200%;
+      width: 180%;
       transform: translateX(-23%);
     }
     .p1_5 {
@@ -339,7 +339,7 @@
     }
     .p1_8 {
       width: 200%;
-      transform: translate(-27%, -15%);
+      transform: translate(-27%, -10%);
     }
 
     .p1_5_1_text {
@@ -404,7 +404,7 @@
     .p1_3_text {
       max-width: 1080px;
       width: 100%;
-      top: 70%;
+      bottom: 0;
       left: 50%;
       margin: 15px;
       transform: translate(-50%, 0);
