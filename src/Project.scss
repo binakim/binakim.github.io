@@ -44,15 +44,13 @@
     margin-top: -88px;
   }
 
+  .p1_15 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
   .conclusion{
     background-color: $purple-color;
-
-    @media (min-width: 1px) {
-      margin-top: -50px;
-    }
-    @media (min-width: 768px) {
-      margin-top: -100px;
-    }
   }
 }
 
@@ -364,10 +362,6 @@
     .p1_6_1_text {
       display: none;
     }
-    .conclusion {
-      padding: 35px 0;
-    }
-
     .videoX {
       width: 100%;
       margin-left: auto;
@@ -440,18 +434,18 @@
       top: 6%;
       right: 66%;
       img {
-        width: 60%;
+        width: 40%;
         height: auto;
       }
     }
     .p1_6_1_text {
       display: block;
       max-width:750px;
-      top: 60%;
+      top: 70%;
       left: 65%;
       text-align: right;
       img {
-        width: 80%;
+        width: 60%;
         height: auto;
       }
     }
@@ -487,11 +481,6 @@
       margin-left: 100px;
       margin-right: 100px;
     }
-
-    .conclusion {
-      margin-bottom: 100px;
-      padding: 100px 0;
-    }
   }
 
   // project specific
@@ -504,11 +493,11 @@
   }
 
   .topPanelDescription {
-    @extend %section4-margin;
+    @extend %section-margin;
   }
 
   .sectionPanel {
-    @extend %section4-margin;
+    @extend %section-margin;
   }
 
   .section {
@@ -578,6 +567,10 @@
 
     .content {
       margin-bottom: 0;
+    }
+
+    .section::after {
+      background-image: linear-gradient(to right, transparent 50%, white 50%);
     }
   }
 
