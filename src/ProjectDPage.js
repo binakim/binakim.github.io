@@ -151,30 +151,29 @@ class ProjectD extends Component {
          <div className='sectionImage'>
          <img className='fitImage' src='assets/p4/p4_12.jpg' data-rjs="2"/>
          </div>
-    </div>
-
-      <div className='sectionPanel fullImage conclusion'>
-        <div className='container-fluid'>
-          <div className='col-12'>
-            <div className='section textOnly'>CONCLUSION</div>
-            <div className='content'>
-                              This case study focuses on the process of
-              validating and solving the problem, and if the
-              service is actually provided by a credit card
-              company, it will be possible to use more user data
-              as well as an automatic credit card connection.
-              The credit card company can analyze the card
-              usage patterns during the travel of the user. As the
-              service becomes more active, it can develop into a
-              community where users can share photos and
-              travel routes.
+        </div>
+        <div className='sectionPanel col-12'>
+          <div className='fullPaddedSection conclusion'>
+            <div className='container-fluid text-left'>
+              <div className='col-12'>
+                <div className='section textOnly'>CONCLUSION</div>
+                <div className='content'>
+                                  This case study focuses on the process of
+                  validating and solving the problem, and if the
+                  service is actually provided by a credit card
+                  company, it will be possible to use more user data
+                  as well as an automatic credit card connection.
+                  The credit card company can analyze the card
+                  usage patterns during the travel of the user. As the
+                  service becomes more active, it can develop into a
+                  community where users can share photos and
+                  travel routes.
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-  </div>  {/* content end */}
-
-
       <ProjectNav 
         prev={{
           href: '/project-c',
