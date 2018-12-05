@@ -9,7 +9,6 @@ class TopButton extends Component {
   }
 
   componentDidUpdate(prevProps) {
-    console.log(prevProps);
     if (this.props.location !== prevProps.location) {
       this.handleClick();
     }
