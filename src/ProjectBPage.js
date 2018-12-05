@@ -399,10 +399,6 @@ class ProjectB extends Component {
             </div>
           </div>
         </div>
-
-
-
-
       </div>
       <ProjectNav 
         prev={{
