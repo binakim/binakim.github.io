@@ -54,10 +54,16 @@ class ProjectB extends Component {
         </div>
 
         <div className='sectionPanel col-12'>
-          <div className='section image'>COMPETITORS</div>
-          <img className='fitImage' src='assets/p2/p2_2.png' data-rjs="2"/>
+          <div className='fullPaddedSection grayBackground'>
+            <div className='container-fluid text-left'>
+              <div className='col-12'>
+                <div className='section image'>COMPETITORS
+                </div>
+                <img className='fitImage' src='assets/p2/p2_2.jpg' data-rjs="2"/>
+              </div>
+            </div>
+          </div>
         </div>
-
         <div className='sectionPanel col-12'>
           <div className='section textOnly'>Findings</div>
           <div className='row'>
@@ -143,87 +149,78 @@ class ProjectB extends Component {
             <img className='fitImage' src='assets/p2/p2_5.jpg' data-rjs="2"/>
           </div>    
         </div> 
-
-
-
-
-
-
-
-
-
-
-
         <div className='sectionPanel col-12'>
-          <div className='section'>PERSONAS</div>
-          <div className='content row persona_bottom_fix'>
-            <div className='persona_profile twoColLayout'>
-              <img src='assets/p2/p1_9_2.png' data-rjs="2"/>
-              <div className='persona_name'>Jennifer</div>
-              <div className='persona_bio'>
-                <div>College student</div>
-                <div>Berkeley, CA</div>
-                <div>23 years old</div>
-                <div>Single</div>
+          <div className='fullPaddedSection grayBackground'>
+            <div className='container-fluid text-left'>
+              <div className='col-12'>
+                <div className='section'>PERSONAS
+                </div>
+                <div className='content row persona_bottom_fix'>
+                  <div className='persona_profile twoColLayout'>
+                    <img src='assets/p2/p1_9_2.png' data-rjs="2"/>
+                    <div className='persona_name'>Jennifer</div>
+                    <div className='persona_bio'>
+                      <div>College student</div>
+                      <div>Berkeley, CA</div>
+                      <div>23 years old</div>
+                      <div>Single</div>
+                    </div>
+                  </div>
+                  <div className='persona_content twoColLayout'>
+                    <div className='persona_quote'>“I do not want to waste food during the test or vacation.”</div>
+                    <div className='persona_env'>Bio</div>
+                    <div className='persona_text'>She is a college student majored business. she is from India originally, and she likes cooking indian food. Sometimes she cooks food and brings that at school. She likes sharing her recipe with her friends and cooking together. Also, she buys ingredients for cooking with her roommates because they can save money. 
+          Sometimes they exchange their remaining ingredients.</div>
+                    <div className='persona_env'>Goal</div>
+                    <div className='persona_text'>She doesn’t want to abandon the remaining food ingredients. She want to save money on buying food ingredients.</div>
+                    <div className='persona_env'>Frustration</div>
+                    <div className='persona_text'>At the end of the test period, there is no time to cook and the remaining food items are discarded. When I go to my hometown during vacation, there are many food ingredients that can not be eaten anymore.</div>
+                  </div>
+                  <div className='persona_profile twoColLayout'>
+                    <img src='assets/p2/p1_9_4.png' data-rjs="2"/>
+                    <div className='persona_name'>Michael </div>
+                    <div className='persona_bio'>
+                      <div>Software Enginner</div>
+                      <div>San Francisco, CA</div>
+                      <div>32 years old</div>
+                      <div>Single</div>
+                      <div>Income: 150K</div>
+                    </div>
+                  </div>
+                  <div className='persona_content twoColLayout'>
+                    <div className='persona_quote'>“Because I cook only on weekends, the leftovers often go bad.”</div>
+                    <div className='persona_env'>Bio</div>
+                    <div className='persona_text'>He is a software engineer in San Francisco. He eats breakfast, lunch at work, and dinner sometimes at home. However, when there is a lot of meetings, he has dinner outside. He is interested in cooking recently, so sometimes cook on weekends. He commutes by bicycles because he is interested in environmental protection.</div>
+                    <div className='persona_env'>Goal</div>
+                    <div className='persona_text'>He wants to learn how to use food ingredients. He wants to donate food that he doesn’t use. He doesn’t want to waste foods from cooking on weekend.</div>
+                    <div className='persona_env'>Frustration</div>
+                    <div className='persona_text'>There are some ingredients that he doesn’t know about that ,so he doesn’t use and discarded. There are a lot of food ingredients go bad, becuase hecan not cook often.</div>
+                  </div>
+                  <div className='persona_profile twoColLayout'>
+                     <img src='assets/p2/p1_9_5.png' data-rjs="2"/>
+                     <div className='persona_name'>Anna</div>
+                     <div className='persona_bio'>
+                       <div>Instructor</div>
+                       <div>Diblin, CA</div>
+                       <div>48 years old</div>
+                       <div>Marrid</div>
+                       <div>Income: 110K</div>
+                     </div>
+                  </div>
+                  <div className='persona_content twoColLayout'>
+                    <div className='persona_quote'>“I forgot what I bought many times, because I bought many foods at once.”</div>
+                    <div className='persona_env'>Bio</div>
+                    <div className='persona_text'>She is a college instructor teachs biology. She lives with her 13- and 8-year-old two sons and her husband. She goes to school three times a week and teach students. She usually has dinner at home with her family. She is too busy to go shopping often, so she buy lots of food ingredients at once. she lives in an apartment for a long time, know my neighbors well, and sometimes have a barbecue.</div>
+                    <div className='persona_env'>Goal</div>
+                    <div className='persona_text'>She want to share the left ingredients with neighbors.</div>
+                    <div className='persona_env'>Frustration</div>
+                    <div className='persona_text'>She often throws away leftovers from the refrigerator.There are many food ingredients that pass the expiration date after purchasing, because she bought a lot of foods and sometimes forgot it.</div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div className='persona_content twoColLayout'>
-              <div className='persona_quote'>“I do not want to waste food during the test or vacation.”</div>
-              <div className='persona_env'>Bio</div>
-              <div className='persona_text'>She is a college student majored business. she is from India originally, and she likes cooking indian food. Sometimes she cooks food and brings that at school. She likes sharing her recipe with her friends and cooking together. Also, she buys ingredients for cooking with her roommates because they can save money. 
-    Sometimes they exchange their remaining ingredients.</div>
-              <div className='persona_env'>Goal</div>
-              <div className='persona_text'>She doesn’t want to abandon the remaining food ingredients. She want to save money on buying food ingredients.
-              </div>
-              <div className='persona_env'>Frustration</div>
-              <div className='persona_text'>At the end of the test period, there is no time to cook and the remaining food items are discarded. When I go to my hometown during vacation, there are many food ingredients that can not be eaten anymore.</div>
-            </div>
-            <div className='persona_profile twoColLayout'>
-              <img src='assets/p2/p1_9_4.png' data-rjs="2"/>
-              <div className='persona_name'>Michael </div>
-              <div className='persona_bio'>
-                <div>Software Enginner</div>
-                <div>San Francisco, CA</div>
-                <div>32 years old</div>
-                <div>Single</div>
-                <div>Income: 150K</div>
-              </div>
-            </div>
-            <div className='persona_content twoColLayout'>
-              <div className='persona_quote'>“Because I cook only on weekends, the leftovers often go bad.”</div>
-              <div className='persona_env'>Bio</div>
-              <div className='persona_text'>He is a software engineer in San Francisco. He eats breakfast, lunch at work, and dinner sometimes at home. However, when there is a lot of meetings, he has dinner outside. He is interested in cooking recently, so sometimes cook on weekends. He commutes by bicycles because he is interested in environmental protection.</div>
-              <div className='persona_env'>Goal</div>
-              <div className='persona_text'>He wants to learn how to use food ingredients. He wants to donate food that he doesn’t use. He doesn’t want to waste foods from cooking on weekend.</div>
-              <div className='persona_env'>Frustration</div>
-              <div className='persona_text'>There are some ingredients that he doesn’t know about that ,so he doesn’t use and discarded. There are a lot of food ingredients go bad, becuase hecan not cook often.</div>
-            </div>
-            <div className='persona_profile twoColLayout'>
-               <img src='assets/p2/p1_9_5.png' data-rjs="2"/>
-               <div className='persona_name'>Anna</div>
-               <div className='persona_bio'>
-                 <div>Instructor</div>
-                 <div>Diblin, CA</div>
-                 <div>48 years old</div>
-                 <div>Marrid</div>
-                 <div>Income: 110K</div>
-               </div>
-            </div>
-            <div className='persona_content twoColLayout'>
-              <div className='persona_quote'>“I forgot what I bought many times, because I bought many foods at once.”</div>
-              <div className='persona_env'>Bio</div>
-              <div className='persona_text'>She is a college instructor teachs biology. She lives with her 13- and 8-year-old two sons and her husband. She goes to school three times a week and teach students. She usually has dinner at home with her family. She is too busy to go shopping often, so she buy lots of food ingredients at once. she lives in an apartment for a long time, know my neighbors well, and sometimes have a barbecue.</div>
-              <div className='persona_env'>Goal</div>
-              <div className='persona_text'>She want to share the left ingredients with neighbors.</div>
-              <div className='persona_env'>Frustration</div>
-              <div className='persona_text'>She often throws away leftovers from the refrigerator.There are many food ingredients that pass the expiration date after purchasing, because she bought a lot of foods and sometimes forgot it.</div>
             </div>
           </div>
         </div>
-
-    {/*ideation*/}
-
-
         <div className='sectionPanel col-12'>
           <div className='section image'>IDEATION</div>
           <div className='subtitle content'>Brainstoming with crazy 8's </div>
@@ -245,10 +242,6 @@ class ProjectB extends Component {
           </div>
           </div>
         </div>
-
-
-    {/*survey*/}
-
         <div className='sectionPanel col-12'>
           <div className='section textOnly'>SURVEY</div>
           <div className='row'>
@@ -286,44 +279,31 @@ class ProjectB extends Component {
                <div className='col-12'>
                <img className='fitImage sectionImage' src='assets/p2/p2_8.jpg' data-rjs="2"/>
             </div>
-            </div>
           </div>
-
-    {/*idea sketch*/}
+        </div>
         <div className='sectionPanel col-12'>
             <div className='section image'>Sketch</div>
             <img className='fitImage' src='assets/p2/p2_13.jpg' data-rjs="2"/>
         </div>
-
-
-    {/*IA*/}
         <div className='sectionPanel col-12'>
             <div className='section image'>INFORMATION ARCHITECTURE</div>
             <img className='fitImage' src='assets/p2/p2_14.png' data-rjs="2"/>
         </div>
-
-
-    {/*task flow*/}
-
-          <div className='sectionPanel col-12'>
-              <div className='section image'>TASK FLOW</div>
-              <div className='subtitle content'>Share the ingredients</div>
-               <div className='sectionImage'>
-               <img className='fitImage' src='assets/p2/p2_9.jpg' data-rjs="2"/>
-               </div>
-               <div className='subtitle content'>Get the ingredients</div>
-               <div className='sectionImage'>
-               <img className='fitImage' src='assets/p2/p2_10.jpg' data-rjs="2"/>
-               </div>
-               <div className='subtitle content'>Apply the volunteer</div>
-               <div className='sectionImage'>
-               <img className='fitImage' src='assets/p2/p2_11.jpg' data-rjs="2"/>
-               </div>
-          </div>
-
-
-    {/*user testing*/}
-
+        <div className='sectionPanel col-12'>
+            <div className='section image'>TASK FLOW</div>
+            <div className='subtitle content'>Share the ingredients</div>
+             <div className='sectionImage'>
+             <img className='fitImage' src='assets/p2/p2_9.jpg' data-rjs="2"/>
+             </div>
+             <div className='subtitle content'>Get the ingredients</div>
+             <div className='sectionImage'>
+             <img className='fitImage' src='assets/p2/p2_10.jpg' data-rjs="2"/>
+             </div>
+             <div className='subtitle content'>Apply the volunteer</div>
+             <div className='sectionImage'>
+             <img className='fitImage' src='assets/p2/p2_11.jpg' data-rjs="2"/>
+             </div>
+        </div>
         <div className='sectionPanel col-12'>
           <div className='section image'>USER TESTING</div>
           <div className='subtitle content'>Test Flow</div>
@@ -381,38 +361,32 @@ class ProjectB extends Component {
             </div>
           </div>
         </div>
-
-
-    {/*wireframe*/}
         <div className='sectionPanel col-12'>
             <div className='section image'>WIREFRAME</div>
             <img className='fitImage' src='assets/p2/p2_15.png' data-rjs="2"/>
         </div>
-
-    {/*final*/}
         <div className='sectionPanel col-12'>
             <div className='section image'>FINAL DESIGN</div>
             <img className='fitImage' src='assets/p2/p2_16.jpg' data-rjs="2"/>
         </div>
-    </div>
-
-        <ProjectNav 
-          prev={{
-            href: '/project-a',
-            className: 'gd1',
-            imgUrl: 'assets/p1.png',
-            category: 'UI / UX Design',
-            title: 'I was here'
-          }}
-          next={{
-            href: '/project-c',
-            className: 'gd3',
-            imgUrl: 'assets/p3.png',
-            category: 'UI / UX Design',
-            title: 'Show me ID'
-          }}
-        />
       </div>
+      <ProjectNav 
+        prev={{
+          href: '/project-a',
+          className: 'gd1',
+          imgUrl: 'assets/p1.png',
+          category: 'UI / UX Design',
+          title: 'I was here'
+        }}
+        next={{
+          href: '/project-c',
+          className: 'gd3',
+          imgUrl: 'assets/p3.png',
+          category: 'UI / UX Design',
+          title: 'Show me ID'
+        }}
+      />
+    </div>
     );
   }
 }
