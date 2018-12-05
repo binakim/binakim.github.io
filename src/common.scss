@@ -228,8 +228,30 @@ $dark-gray-color: #DEDEDE;
 }
 
 // Large devices (desktops, 992px and up)
-// @media (min-width: 992px) {
-// }
+@media (min-width: 992px) {
+  a:hover {
+    color: $text-color;
+    text-decoration: none;
+  }
+
+  a:hover::after {
+    content: "";
+    background-image: linear-gradient(to right, transparent 50%, #50e3c2 50%);
+    background-position: -100% 100%;
+    background-size: 200% 100%;
+    background-repeat: repeat-x;
+    height: 36%;
+    width: 100%;
+    position: absolute;
+    display: block;
+    border-radius: 50px;
+    top: 49%;
+    transition: background-position 0.3s ease-out;
+    left: 0px;
+    z-index: -1;
+    top: 50%;
+  }
+}
 
 // Extra large devices (large desktops, 1200px and up)
 // @media (min-width: 1200px) {
@@ -239,16 +261,6 @@ a {
   position: relative;
   color: $text-color;
   text-decoration: none;
-}
-
-a:hover {
-  color: $text-color;
-  text-decoration: none;
-}
-
-a:hover::after {
-  @extend .highlight-drop;
-  top: 50%;
 }
 
 .highlight {
