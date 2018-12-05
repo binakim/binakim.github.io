@@ -59,7 +59,7 @@ class ProjectB extends Component {
               <div className='col-12'>
                 <div className='section image'>COMPETITORS
                 </div>
-                <img className='fitImage' src='assets/p2/p2_2.jpg' data-rjs="2"/>
+                <img className='fitImage' src='assets/p2/p2_2.png' data-rjs="2"/>
               </div>
             </div>
           </div>
