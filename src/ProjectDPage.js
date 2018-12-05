@@ -65,20 +65,26 @@ class ProjectD extends Component {
 
 
       <div className='sectionPanel col-12'>
-          <div className='section image'>DRAFT DESIGN</div>
-          <div className='content'>
-          After the first horizontal scrolling design, we proceeded with user testing.
+        <div className='fullPaddedSection grayBackground'>
+          <div className='container-fluid text-left'>
+            <div className='col-12'>
+              <div className='section image'>DRAFT DESIGN</div>
+              <div className='content'>
+              After the first horizontal scrolling design, we proceeded with user testing.
+              </div>
+              <div className='subtitle entry content'>Main Home </div>
+              <div className='content'>
+              A horizontal scrolling site was designed to change the default grid according to the content importance.
+              </div>
+              <img className='fitImage' src='assets/p4/p4_2.jpg' data-rjs="2"/>
+              <div className='subtitle entry content'>Channel List </div>
+              <div className='content'>
+              Designed a channel list page to view program introduction and episodes.
+              </div>
+              <img className='fitImage' src='assets/p4/p4_3.jpg' data-rjs="2"/>
+            </div>
           </div>
-          <div className='subtitle entry content'>Main Home </div>
-          <div className='content'>
-          A horizontal scrolling site was designed to change the default grid according to the content importance.
-          </div>
-          <img className='fitImage' src='assets/p4/p4_2.jpg' data-rjs="2"/>
-          <div className='subtitle entry content'>Channel List </div>
-          <div className='content'>
-          Designed a channel list page to view program introduction and episodes.
-          </div>
-          <img className='fitImage' src='assets/p4/p4_3.jpg' data-rjs="2"/>
+        </div>
       </div>
 
       <div className='sectionPanel col-12'>
@@ -130,27 +136,33 @@ class ProjectD extends Component {
       </div>
 
 
-    <div className='sectionPanel col-12'>
-          <div className='section image'>FINAL DIESIGN</div>
-          <div className='sectionImage'>
-         <img className='fitImage' src='assets/p4/p4_13.jpg' data-rjs="2"/>
-         </div>
-         <div className='subtitle entry content'>Home </div>
-         <div className='sectionImage'>
-         <img className='fitImage' src='assets/p4/p4_8.jpg' data-rjs="2"/>
-         </div>
-         <div className='subtitle entry content'>Channel Home </div>
-         <div className='sectionImage'>
-         <img className='fitImage' src='assets/p4/p4_9.jpg' data-rjs="2"/>
-         </div>
-         <div className='subtitle entry content'>Content</div>
-         <div className='sectionImage'>
-         <img className='fitImage' src='assets/p4/p4_10.jpg' data-rjs="2"/>
-         </div>
-         <div className='subtitle entry content'>Mobile</div>
-         <div className='sectionImage'>
-         <img className='fitImage' src='assets/p4/p4_12.jpg' data-rjs="2"/>
-         </div>
+        <div className='sectionPanel col-12'>
+          <div className='fullPaddedSection grayBackground'>
+            <div className='container-fluid text-left'>
+              <div className='col-12'>
+                <div className='section image'>FINAL DIESIGN</div>
+                <div className='sectionImage'>
+                  <img className='fitImage' src='assets/p4/p4_13.png' data-rjs="2"/>
+                  </div>
+                  <div className='subtitle entry content'>Home </div>
+                  <div className='sectionImage'>
+                  <img className='fitImage' src='assets/p4/p4_8.jpg' data-rjs="2"/>
+                  </div>
+                  <div className='subtitle entry content'>Channel Home </div>
+                  <div className='sectionImage'>
+                  <img className='fitImage' src='assets/p4/p4_9.jpg' data-rjs="2"/>
+                  </div>
+                  <div className='subtitle entry content'>Content</div>
+                  <div className='sectionImage'>
+                  <img className='fitImage' src='assets/p4/p4_10.jpg' data-rjs="2"/>
+                  </div>
+                  <div className='subtitle entry content'>Mobile</div>
+                  <div className='sectionImage'>
+                  <img className='fitImage' src='assets/p4/p4_12.jpg' data-rjs="2"/>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div className='sectionPanel col-12'>
           <div className='fullPaddedSection conclusion'>

@@ -286,8 +286,14 @@ class ProjectB extends Component {
             <img className='fitImage' src='assets/p2/p2_13.jpg' data-rjs="2"/>
         </div>
         <div className='sectionPanel col-12'>
-            <div className='section image'>INFORMATION ARCHITECTURE</div>
-            <img className='fitImage' src='assets/p2/p2_14.png' data-rjs="2"/>
+          <div className='fullPaddedSection grayBackground'>
+            <div className='container-fluid text-left'>
+              <div className='col-12'>
+                <div className='section image'>INFORMATION ARCHITECTURE</div>
+                <img className='fitImage' src='assets/p2/p2_14.png' data-rjs="2"/>
+              </div>
+            </div>
+          </div>
         </div>
         <div className='sectionPanel col-12'>
             <div className='section image'>TASK FLOW</div>
@@ -362,8 +368,14 @@ class ProjectB extends Component {
           </div>
         </div>
         <div className='sectionPanel col-12'>
-            <div className='section image'>WIREFRAME</div>
-            <img className='fitImage' src='assets/p2/p2_15.png' data-rjs="2"/>
+          <div className='fullPaddedSection grayBackground'>
+            <div className='container-fluid text-left'>
+              <div className='col-12'>
+                <div className='section image'>WIREFRAME</div>
+                <img className='fitImage' src='assets/p2/p2_15.png' data-rjs="2"/>
+              </div>
+            </div>
+          </div>
         </div>
         <div className='sectionPanel col-12'>
             <div className='section image'>FINAL DESIGN</div>
