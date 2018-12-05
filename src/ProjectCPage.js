@@ -205,20 +205,20 @@ class ProjectC extends Component {
         </div>
         <div className='sectionPanel col-12'>
           <div className='section image'>prototype</div>
-          <div className='text-center'>
-            <video className="video" controls>
-              <source src="assets/p3/showmeid_BinaKim_1.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+          <div className='videoX'>
+            <div className='videoY'>
+              <iframe className='youtube' src="https://www.youtube.com/embed/OU3-CRKP-e8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
           </div>
         </div>
         <div className='sectionPanel col-12'>
           <div className='section image'>concept video</div>
           <div className='text-center'>
-            <video className="video" controls>
-              <source src="assets/p3/Mod8.1_BinaKim_1.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+            <div className='videoX'>
+              <div className='videoY'>
+                <iframe className='youtube' src="https://www.youtube.com/embed/wjIl933LSZ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
           </div>
         </div>
         <div className='sectionPanel col-12'>
