@@ -13,7 +13,7 @@ class Header extends React.Component {
   handleChange(event) {
     console.log(event);
     const openStatus = event.target.checked;
-    document.getElementById("root").classList.toggle('noscroll', openStatus);
+    document.getElementById("parallax-container").classList.toggle('noscroll', openStatus);
   }
 
   render() {
