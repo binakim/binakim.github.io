@@ -23,8 +23,8 @@ class ProjectC extends Component {
       </div>
       <div className='col-12 col-lg-4 projectTitle'>
         <div className='topPanelCategory'>UI / UX Design</div>
-        <div className='topPanelTitle'>Show me ID</div>
-        <div className='topPanelDescription'>Show me id is an app that ID verification for the web, or products.</div>
+        <div className='topPanelTitle'>Show Me ID</div>
+        <div className='topPanelDescription'>Show Me ID is an app that id verification for the web, or products.</div>
       </div>
       <div>
         <div className='sectionPanel col-12'>
@@ -162,14 +162,12 @@ class ProjectC extends Component {
                   <div className='persona_description twoColLayout'>
                      <div className='persona_text'>
             I’m the CTO of E-Cigarettes company. 
-        Recently, our company grows up so fast. On  
-        the other  hand, we are having some 
-        problems, which is the increase in teenage 
-        our product use.  Eighty percent of our 
+        Recently, our company has grown quickly. We are having some 
+        problems, with an increase of teenager using our products. Eighty percent of our 
         products are sold online. Therefore, we 
         prohibit teenagers from buying our products 
         by checking credit card. Nevertheless, teens 
-        still buy and use our product, so we need the 
+        still buy and use our product, so we need a 
         more accurate system. We are looking for 
         the system which is secure and seamless.
                     </div>
