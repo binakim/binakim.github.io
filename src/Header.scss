@@ -32,10 +32,6 @@
   text-decoration: none;
 }
 
-.header .nav-item a:hover::after {
-  @extend .highlight-drop;
-}
-
 .header .nav-item .active {
   color: $black-color;
   font-weight: bold;
