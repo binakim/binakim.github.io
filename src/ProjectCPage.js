@@ -87,25 +87,31 @@ class ProjectC extends Component {
           </div>
         </div>
         <div className='sectionPanel col-12'>
-          <div className='section textOnly'>PROBLEMS</div>
-          <div className='title content'>
-                To purchase a cigarette on the market, you
-            need to check your ID, but if you have a
-            credit card online, you can buy a cigarette
-            without an ID check. As described above, an
-            authentication method for an article
-            requiring an ID check is also required online.
-          </div>
-          <div className='row inverse_sectionImage'>
-            <div className='entry col-12 col-md-6'>
-              <div className='subtitle entry content'>Cigarette</div>
-              <div className='entry content'>Warning pictures &messages<br/> Face to Face ID check</div>
-              <img className='sectionImage p3_3_1 fitImage' src="assets/p3/p3_3.jpg" data-rjs="2"/>
-            </div>
-            <div className='entry col-12 col-md-6'>
-              <div className='subtitle entry content'>E-Cigarette</div>
-              <div className='entry content'>No warning messages <br/> Youth prevention announcement & Credit Card check</div>
-              <img className='sectionImage p3_3_2 fitImage' src="assets/p3/p3_3_2.jpg" data-rjs="2"/>
+          <div className='fullPaddedSection grayBackground'>
+            <div className='container-fluid text-left'>
+              <div className='col-12'>
+                <div className='section textOnly'>PROBLEMS</div>
+                <div className='title content'>
+                      To purchase a cigarette on the market, you
+                  need to check your ID, but if you have a
+                  credit card online, you can buy a cigarette
+                  without an ID check. As described above, an
+                  authentication method for an article
+                  requiring an ID check is also required online.
+                </div>
+                <div className='row inverse_sectionImage'>
+                  <div className='entry col-12 col-md-6'>
+                    <div className='subtitle entry content'>Cigarette</div>
+                    <div className='entry content'>Warning pictures &messages<br/> Face to Face ID check</div>
+                    <img className='sectionImage p3_3_1 fitImage' src="assets/p3/p3_3.jpg" data-rjs="2"/>
+                  </div>
+                  <div className='entry col-12 col-md-6'>
+                    <div className='subtitle entry content'>E-Cigarette</div>
+                    <div className='entry content'>No warning messages <br/> Youth prevention announcement & Credit Card check</div>
+                    <img className='sectionImage p3_3_2 fitImage' src="assets/p3/p3_3_2.jpg" data-rjs="2"/>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -140,30 +146,36 @@ class ProjectC extends Component {
           </div>
         </div>
         <div className='sectionPanel col-12'>
-          <div className='section image'>PERSONA</div>
-          <div className='content row persona_bottom_fix'>
-            <div className='persona_profile twoColLayout'>
-               <img src='assets/p3/p3_5.png' data-rjs="2"/>
-               <div className='persona_name'>Anderson  Jack</div>
-               <div className='persona_bio'>
-                 <div>Age: 42 </div>
-                 <div>Job : E-Cigarettes start up CTO</div>
-               </div>
-            </div>
-            <div className='persona_description twoColLayout'>
-               <div className='persona_text'>
-      I’m the CTO of E-Cigarettes company. 
-  Recently, our company grows up so fast. On  
-  the other  hand, we are having some 
-  problems, which is the increase in teenage 
-  our product use.  Eighty percent of our 
-  products are sold online. Therefore, we 
-  prohibit teenagers from buying our products 
-  by checking credit card. Nevertheless, teens 
-  still buy and use our product, so we need the 
-  more accurate system. We are looking for 
-  the system which is secure and seamless.
-               </div>
+          <div className='fullPaddedSection grayBackground'>
+            <div className='container-fluid text-left'>
+              <div className='col-12'>
+                <div className='section image'>PERSONA</div>
+                <div className='content row persona_bottom_fix'>
+                  <div className='persona_profile twoColLayout'>
+                     <img src='assets/p3/p3_5.png' data-rjs="2"/>
+                     <div className='persona_name'>Anderson  Jack</div>
+                     <div className='persona_bio'>
+                       <div>Age: 42 </div>
+                       <div>Job : E-Cigarettes start up CTO</div>
+                     </div>
+                  </div>
+                  <div className='persona_description twoColLayout'>
+                     <div className='persona_text'>
+            I’m the CTO of E-Cigarettes company. 
+        Recently, our company grows up so fast. On  
+        the other  hand, we are having some 
+        problems, which is the increase in teenage 
+        our product use.  Eighty percent of our 
+        products are sold online. Therefore, we 
+        prohibit teenagers from buying our products 
+        by checking credit card. Nevertheless, teens 
+        still buy and use our product, so we need the 
+        more accurate system. We are looking for 
+        the system which is secure and seamless.
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -186,8 +198,14 @@ class ProjectC extends Component {
           </div>
         </div>
         <div className='sectionPanel col-12'>
-          <div className='section image'>USER FLOW</div>
-          <img className='fitImage' src='assets/p3/p3_7.png' data-rjs="2"/>
+          <div className='fullPaddedSection grayBackground'>
+            <div className='container-fluid text-left'>
+              <div className='col-12'>
+                <div className='section image'>USER FLOW</div>
+                <img className='fitImage' src='assets/p3/p3_7.png' data-rjs="2"/>
+              </div>
+            </div>
+          </div>
         </div>
         <div className='sectionPanel col-12'>
           <div className='fullImage grayBackground'>
@@ -204,10 +222,16 @@ class ProjectC extends Component {
           <img className='sectionImage fitImage mb-0' src='assets/p3/p3_9_3.jpg' data-rjs="2"/>
         </div>
         <div className='sectionPanel col-12'>
-          <div className='section image'>prototype</div>
-          <div className='videoX'>
-            <div className='videoY'>
-              <iframe className='youtube' src="https://www.youtube.com/embed/OU3-CRKP-e8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div className='fullPaddedSection grayBackground'>
+            <div className='container-fluid text-left'>
+              <div className='col-12'>
+                <div className='section image'>prototype</div>
+                <div className='videoX'>
+                  <div className='videoY'>
+                    <iframe className='youtube' src="https://www.youtube.com/embed/OU3-CRKP-e8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
