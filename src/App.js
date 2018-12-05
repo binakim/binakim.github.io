@@ -13,6 +13,7 @@ import ProjectCPage from './ProjectCPage';
 import ProjectDPage from './ProjectDPage';
 import TopButton from './TopButton';
 import TopDetector from './TopDetector';
+import Div100vh from 'react-div-100vh'
 
 class App extends Component {
   constructor(props) {
@@ -31,7 +32,7 @@ class App extends Component {
       <Router basename={process.env.PUBLIC_URL}>
         <div>
           <TopButton target={this.parallaxRef} showTopButton={this.state.showTopButton} />
-          <div ref={this.parallaxRef} id='parallax-container' className='parallax-container'>
+          <Div100vh ref={this.parallaxRef} id='parallax-container' className='parallax-container'>
             <div className="App container-fluid">
               <Header className="Header" />
               <TopDetector dispatch={this.dispatch} />
@@ -43,7 +44,7 @@ class App extends Component {
               <Route path='/project-d' component={ProjectDPage} />
               <Footer />
             </div>
-          </div>
+          </Div100vh>
         </div>
       </Router>
     );
