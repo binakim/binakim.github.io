@@ -158,16 +158,15 @@ class ProjectD extends Component {
               <div className='col-12'>
                 <div className='section textOnly'>CONCLUSION</div>
                 <div className='content'>
-                                  This case study focuses on the process of
-                  validating and solving the problem, and if the
-                  service is actually provided by a credit card
-                  company, it will be possible to use more user data
-                  as well as an automatic credit card connection.
-                  The credit card company can analyze the card
-                  usage patterns during the travel of the user. As the
-                  service becomes more active, it can develop into a
-                  community where users can share photos and
-                  travel routes.
+                                  The project was the first financial company to 
+                                  create an independent video streaming project. 
+                                  We conducted various UX tests on how to plan channels 
+                                  that fit the company's promotional direction and how to 
+                                  effectively expose them. In order to develop algorithms 
+                                  for effective content exposure, we designed algorithms by 
+                                    collaborating with data analysis team. Due to the nature 
+                                  of video files, various tests were required for each browser 
+                                  nd device, and UX was also customized.
                 </div>
               </div>
             </div>
