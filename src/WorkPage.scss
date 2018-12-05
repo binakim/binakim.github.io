@@ -44,10 +44,6 @@
   }
 }
 
-.topSpacing {
-  @extend %section-margin;
-}
-
 .workPanel {
   display: flex;
   flex-wrap: wrap;
