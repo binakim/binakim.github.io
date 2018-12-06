@@ -381,6 +381,76 @@ class ProjectB extends Component {
             <div className='section image'>FINAL DESIGN</div>
             <img className='fitImage' src='assets/p2/p2_16.jpg' data-rjs="2"/>
         </div>
+
+
+      <div className='sectionPanel col-12'>
+          <div className='section textOnly'>BRAND DESIGN</div>
+          <div className='row'>
+            <div className='col-12'>
+              <div className='sectionSubtitle'>Final Logo</div>         
+            </div>
+          </div>
+
+          <div className='sectionImage'>
+            <img className='fitImage' src='assets/p2/p2_19.png' data-rjs="2"/>
+          </div> 
+
+           <div className='row'>
+            <div className='col-12'>
+              <div className='sectionSubtitle'>Logo Anatomy</div>         
+            </div>
+            </div>
+
+           <div className='sectionImage'>
+            <img className='fitImage' src='assets/p2/p2_21.png' data-rjs="2"/>
+          </div>
+
+
+             <div className='row'>
+            <div className='col-12'>
+              <div className='sectionSubtitle'>Best Practice</div>         
+             </div>
+            </div>
+
+
+           <div className='sectionImage'>
+            <img className='fitImage' src='assets/p2/p2_22.png' data-rjs="2"/>
+          </div>
+
+          <div className='row'>
+            <div className='col-12'>
+              <div className='sectionSubtitle'>Color Palette</div>         
+             </div>
+            </div>
+
+          <div className='sectionImage'>
+            <img className='fitImage' src='assets/p2/p2_20.png' data-rjs="2"/>
+          </div>
+
+
+           <div className='row'>
+            <div className='col-12'>
+              <div className='sectionSubtitle'>Campaign Ideas</div>         
+            </div>
+           </div>
+
+          <div className='sectionImage'>
+            <img className='fitImage' src='assets/p2/p2_23.png' data-rjs="2"/>
+          </div>
+          <div className='sectionImage'>
+            <img className='fitImage' src='assets/p2/p2_24.png' data-rjs="2"/>
+          </div>
+
+          <div className='row'>
+            <div className='col-12'>
+              <div className='sectionSubtitle'>Products</div>         
+            </div>
+           </div>
+            <div className='sectionImage'>
+            <img className='fitImage' src='assets/p2/p2_25.png' data-rjs="2"/>
+          </div>
+          </div>
+
         <div className='sectionPanel col-12'>
           <div className='fullPaddedSection conclusion'>
             <div className='container-fluid text-left'>
