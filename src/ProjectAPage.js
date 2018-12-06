@@ -155,10 +155,12 @@ class ProjectA extends Component {
             product.
           </div>
           <div className='content row'>
+
             <div className='insight_summary order-5 order-md-1 col-12 col-md-6'>
                <div className='insight_title'>Differentiating points</div>
                <div>Common SNS services and trip journals should be represented differently.</div>
             </div>
+
             <div className='insight_entry order-1 order-md-2 col-12 col-md-6'>
               <div className='insight_profile'><img src='assets/p-a/p1_9_2.png' />
               </div>
@@ -167,10 +169,13 @@ class ProjectA extends Component {
                 <div className='insight_name'>Jenny (28 years old, Product Designer</div>
               </div>
             </div>
+
+
             <div className='insight_summary order-6 order-md-3 col-12 col-md-6'>
                <div className='insight_title'>Effective Budget Management</div>
                <div>Designing the system to maange the amount systematically and effectively.</div>
             </div>
+
             <div className='insight_entry order-2 order-md-4 col-12 col-md-6'>
               <div className='insight_profile'><img src='assets/p-a/p1_9_3.png' />
               </div>
@@ -179,6 +184,7 @@ class ProjectA extends Component {
                 <div className='insight_name'>Jun (32 years old, Graphic Designer)</div>
               </div>
             </div>
+            
             <div className='insight_summary order-7 order-md-5 col-12 col-md-6'>
                <div className='insight_title'>Various transportation</div>
                <div>When recording a trip, you need ot consider various means of transportation and variables during your trip.</div>
