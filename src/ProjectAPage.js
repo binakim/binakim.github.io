@@ -352,6 +352,18 @@ class ProjectA extends Component {
             <img className='fitImage p1_15' src='assets/p-a/p1_15.png' data-rjs="2"/>
           </div>
         </div>
+
+        <div className='sectionPanel col-12'>
+          <div className='section image'>concept video</div>
+          <div className='text-center'>
+            <div className='videoX'>
+              <div className='videoY'>
+                <iframe className='youtube' src="https://www.youtube.com/embed/5BtI0th4tVU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className='sectionPanel col-12'>
           <div className='section'>USER TEST</div>
           <div className='content'>

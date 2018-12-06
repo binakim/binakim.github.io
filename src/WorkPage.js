@@ -28,7 +28,7 @@ export default () => {
     <WorkPanel target='/project-c' backgroundStyle='gd3' imagePath='assets/p3.png'>
       <div className='workPanelCategory'>UI / UX Design</div>
       <div className='workPanelTitle'>Show Me ID</div>
-      <div className='workPanelDescription'>Show me ID is an app that provides ID verification forthe web and products</div>
+      <div className='workPanelDescription'>Show me ID is an app that provides ID verification for the web and products</div>
     </WorkPanel>
     <WorkPanel target='/project-d' backgroundStyle='gd4' imagePath='assets/p4.png' right={ true } last={ true}>
       <div className='workPanelCategory'>UX Design</div>
