@@ -213,7 +213,7 @@ class ProjectA extends Component {
                 <div className='section'>SOLUTION</div>
                 <div className='title narrow content'>
                     Create a travel journal & manage travel
-                  budget </br>
+                  budget <br/>
                   by recording the card data and photo
                   Exif data used during travel.
                 </div>

@@ -158,7 +158,7 @@ class ProjectD extends Component {
                   </div>
                   <div className='subtitle entry content'>Mobile</div>
                   <div className='sectionImage'>
-                  <img className='fitImage' src='assets/p4/p4_12.jpg' data-rjs="2"/>
+                  <img className='fitImage' src='assets/p4/p4_12.png' data-rjs="2"/>
                 </div>
               </div>
             </div>
