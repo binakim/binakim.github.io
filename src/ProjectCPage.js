@@ -224,9 +224,11 @@ class ProjectC extends Component {
             <div className='container-fluid text-left'>
               <div className='col-12'>
                 <div className='section image'>prototype</div>
-                <div className='videoX'>
-                  <div className='videoY'>
-                    <iframe className='youtube' src="https://www.youtube.com/embed/OU3-CRKP-e8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div className='text-center'>
+                  <div className='videoX'>
+                    <div className='videoY'>
+                      <iframe className='youtube' src="https://www.youtube.com/embed/OU3-CRKP-e8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                   </div>
                 </div>
               </div>
