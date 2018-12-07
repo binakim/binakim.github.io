@@ -13,9 +13,9 @@ class ProjectE extends Component {
   }
 
   render() {
-    return <div className='project p4'>
+    return <div className='project p5'>
       <div className='col-12'>
-        <div className='fullWidthBoundHeightPanel gd4'>
+        <div className='fullWidthBoundHeightPanel gd5'>
           <div className='fullWidthYShift'>
             <img src='assets/p5.png' data-rjs="2"/>
           </div>
@@ -189,7 +189,10 @@ class ProjectE extends Component {
          <div className='section image'>TOOLTIP &amp; NOTIFICATION BAR &amp; ACCORDIAN TAB</div>
          <img className='fitImage' src='assets/p5/p5_11.jpg' data-rjs="2"/>
        </div>
-
+       <div className='sectionPanel col-12'>
+         <div className='section image'>FINAL DESIGN</div>
+         <img className='fitImage' src='assets/p5/p5_11.jpg' data-rjs="2"/>
+       </div>
        <div className='sectionPanel col-12'>
          <div className='fullPaddedSection conclusion'>
            <div className='container-fluid text-left'>

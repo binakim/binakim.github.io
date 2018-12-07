@@ -156,6 +156,15 @@
   }
 }
 
+.gd5 {
+  background-image: radial-gradient(circle,#82ABEA ,#C6C7F3);
+
+  img {
+    top: 80px;
+    transform: translate3d(0, 0, 1.5px) scale(0.8);
+  }
+}
+
 .icon-scroll,
 .icon-scroll:before {
     position: absolute;
