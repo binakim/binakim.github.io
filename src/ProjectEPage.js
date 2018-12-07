@@ -7,7 +7,7 @@ import './AboutPage.scss';
 import './WorkPage.scss';
 import './Project.scss';
 
-class ProjectD extends Component {
+class ProjectE extends Component {
   componentDidMount() {
     retina();
   }
@@ -17,53 +17,108 @@ class ProjectD extends Component {
       <div className='col-12'>
         <div className='fullWidthBoundHeightPanel gd4'>
           <div className='fullWidthYShift'>
-            <img src='assets/p4.png' data-rjs="2"/>
+            <img src='assets/p5.png' data-rjs="2"/>
           </div>
         </div>
       </div>
       <div className='col-12 col-lg-5 projectTitle'>
-        <div className='topPanelCategory'>UX Design</div>
-        <div className='topPanelTitle'>Channel Hyundai Card</div>
-        <div className='topPanelDescription'>The responsive video streaming website for branding and marketing of credit card companies.</div>
+        <div className='topPanelCategory'>Web Development / UI Design</div>
+        <div className='topPanelTitle'>Penguin Island</div>
+        <div className='topPanelDescription'>
+          Service to see migration routes of penguins living in Antarctica changed by global warming
+        </div>
       </div>
-    
-
-    <div>
       <div className='sectionPanel col-12'>
           <div className='section textOnly'>INTRO</div>
           <div className='content'>
-          The site produces videos that inspire users from various fields such as finance, art, music, and design to show the lifestyle that Hyundai Card pursues. I have planned site content display strategy, information architecture, video player UX design and content recommendation algorithm in this project.
+            --intro goes here--
           </div>
-           <div className='subtitle entry content'>ROLE</div>
-            <div className='content'>
-              Lead UX Designer / Contents Strategy, Market Research, A/B Test, Admin Design, Video Recommend Algorithm, Wireframes, QA
-            </div>
-            <div className='subtitle entry content'>COMPANY </div>
-            <div className='content'>
-              Hyundai Card
-            </div>          
-            <div className='subtitle entry content'>PERIOD </div>
-            <div className='content'>
-              April 2015 – January 2016 
-            </div> 
-              <div className='subtitle entry content'>MISSION </div>
-            <div className='content'>
-              Create a responsive video streaming website
-            </div>         
-       </div>
-
-      <div className='sectionPanel col-12'>
-          <div className='section image'>IDEA SKETCH</div>
-          <div className='content'>
-          Effective UX methods were considered in a number of ways in preparation for minimal content available in the early stages of the site opening. I considered a horizontal scrolling website and suggested tags.
-          There were two UX strategy points.<br/>
-          -How to effectively expose a few contents at the beginning of the site?<br/>
-          -Navigation configuration to allow continuous viewing of content. 
-          </div>
-          <img className='fitImage' src='assets/p4/p4_1.jpg' data-rjs="2"/>
       </div>
 
+      <div className='sectionPanel col-12'>
+          <div className='section image'>OUR GOAL</div>
+          <div className='content'>
+          Antarctic penguins begin moving north until April each year.
+          Due to climate change (global warming), the range of ice in Antarctic decreasing year by year and the penguin habitat is getting worse. 'Penguin Island' protects the penguin habitat by tracking the penguins' migration.
+          </div>
+          <img className='fitImage' src='assets/p5/p5_1.jpg' data-rjs="2"/>
+      </div>
 
+      <div className='sectionPanel col-12'>
+          <div className='section image'>TARGET USER</div>
+          <div className='row'>
+            <div className='entry col-12 col-md-6'>
+              <div className='subtitle entry content'>Primary</div>
+              <div className='entry content'>
+              Who cares about the environment and loves animals.<br/>
+              Age: Late 10~ Late 30 years0
+              </div>
+            </div>
+            <div className='entry col-12 col-md-6'>
+              <div className='subtitle entry content'>Secondary</div>
+              <div className='entry content'>
+              Who is interested in a penguin.<br/>
+              Age: Elementary school students
+              </div>
+            </div>
+          </div>          
+          <img className='fitImage' src='assets/p5/p5_1.jpg' data-rjs="2"/>
+      </div>
+
+      <div className='sectionPanel col-12'>
+          <div className='section image'>COMPATIBILITY</div>
+          <div className='row'>
+            <div className='entry col-12 col-md-6'>
+              <div className='subtitle entry content'>Device</div>
+              <div className='entry content'>
+              iPhone, Android phone / Wifi + Cellular
+              </div>
+              <div className='subtitle entry content'>Browser</div>
+              <div className='entry content'>
+              Google Chrome, Safari iOS
+              </div>
+            </div>
+            <div className='entry col-12 col-md-6'>
+              <div className='subtitle entry content'>Aspect ratio</div>
+              <div className='entry content'>
+      Primary: 16:9 ( Most common / iPhone 6,7,8 Plus, Android phones )<br/>
+      Secondary: 19.5:9 ( iPhone X )
+              </div>
+              <div className='subtitle entry content'>Tracker Technology</div>
+              <div className='entry content'>
+              GPS+Wireless Access Pointss
+              </div>
+            </div>
+          </div>          
+          <img className='fitImage' src='assets/p5/p5_1.jpg' data-rjs="2"/>
+      </div>
+
+      <div className='sectionPanel col-12'>
+          <div className='section image'>TASKS</div>
+          <div className='row'>
+            <div className='entry col-12 col-md-6'>
+              <div className='subtitle entry content'>1. The migratory routes</div>
+              <div className='entry content'>
+              Time: Year / Month/ Live (Optional)<br/> View: Full, Zoom
+              </div>
+              <div className='subtitle entry content'>2. Types of Penguins</div>
+              <div className='entry content'>
+              Habitat information<br/>
+              Characteristic<br/>
+              Amount of penguins<br/>
+              Pictures
+              </div>
+            </div>
+            <div className='entry col-12 col-md-6'>
+              <div className='subtitle entry content'>3. Antarctic map changes due to warming</div>
+              <div className='entry content'>By year</div>
+              <div className='subtitle entry content'>4.Donation (Optional)</div>
+              <div className='entry content'>
+              </div>
+            </div>
+          </div>          
+          <img className='fitImage' src='assets/p5/p5_1.jpg' data-rjs="2"/>
+      </div>
       <div className='sectionPanel col-12'>
         <div className='fullPaddedSection grayBackground'>
           <div className='container-fluid text-left'>
@@ -76,133 +131,103 @@ class ProjectD extends Component {
               <div className='content'>
               A horizontal scrolling site was designed to change the default grid according to the content importance.
               </div>
-              <img className='fitImage' src='assets/p4/p4_2.jpg' data-rjs="2"/>
+              <img className='fitImage' src='assets/p5/p5_2.jpg' data-rjs="2"/>
               <div className='subtitle entry content'>Channel List </div>
               <div className='content'>
               Designed a channel list page to view program introduction and episodes.
               </div>
-              <img className='fitImage' src='assets/p4/p4_3.jpg' data-rjs="2"/>
+              <img className='fitImage' src='assets/p5/p5_3.jpg' data-rjs="2"/>
             </div>
           </div>
         </div>
       </div>
 
       <div className='sectionPanel col-12'>
-          <div className='section image'>USABILITY TEST</div>
-          <div className='content'>
-          For the usability test with first version mock-up, we checked the list below. <br/>
-          -Video channel usage behavior <br/>
-          -Device preference <br/>
-          -Content expected from service concept <br/>
-          -Site first impressions <br/>
-          -Contents interest <br/>
-          -Navigation usability <br/>
-          </div>
-          <div className='subtitle entry content'>Result</div>
-          <div className='content'>
-         User tests showed that most visitors felt that the site was new, but there were difficulties in using it, and the content was not very compelling.  Before launching the website, we decided to increase the number of various videos that users would see.
-          </div>
-          <img className='fitImage' src='assets/p4/p4_4.jpg' data-rjs="2"/>
+        <div className='section image'>IDEA SKETCH</div>
+        <img className='fitImage' src='assets/p5/p5_15.png' data-rjs="2"/>
       </div>
 
+       <div className='sectionPanel col-12'>
+         <div className='fullPaddedSection grayBackground'>
+           <div className='container-fluid text-left'>
+             <div className='col-12'>
+               <div className='section image'>INFORMATION ARCHITECTURE</div>
+               <img className='fitImage' src='assets/p5/p5_14.png' data-rjs="2"/>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div className='sectionPanel col-12'>
+         <div className='section image'>TASK FLOW</div>
+         <img className='fitImage' src='assets/p5/p5_11.jpg' data-rjs="2"/>
+       </div>
+       <div className='sectionPanel col-12'>
+         <div className='section image'>WIREFRAME</div>
+         <img className='fitImage' src='assets/p5/p5_11.jpg' data-rjs="2"/>
+       </div>
+       <div className='sectionPanel col-12'>
+         <div className='section image'>LOGO DESIGN</div>
+         <img className='fitImage' src='assets/p5/p5_11.jpg' data-rjs="2"/>
+       </div>
+       <div className='sectionPanel col-12'>
+         <div className='section image'>COLOR</div>
+         <img className='fitImage' src='assets/p5/p5_11.jpg' data-rjs="2"/>
+       </div>
+       <div className='sectionPanel col-12'>
+         <div className='section image'>FONT</div>
+         <img className='fitImage' src='assets/p5/p5_11.jpg' data-rjs="2"/>
+       </div>
+       <div className='sectionPanel col-12'>
+         <div className='section image'>TEXT TYPE</div>
+         <img className='fitImage' src='assets/p5/p5_11.jpg' data-rjs="2"/>
+       </div>
+       <div className='sectionPanel col-12'>
+         <div className='section image'>BUTTON &amp; INPUTS</div>
+         <img className='fitImage' src='assets/p5/p5_11.jpg' data-rjs="2"/>
+       </div>
+       <div className='sectionPanel col-12'>
+         <div className='section image'>TOOLTIP &amp; NOTIFICATION BAR &amp; ACCORDIAN TAB</div>
+         <img className='fitImage' src='assets/p5/p5_11.jpg' data-rjs="2"/>
+       </div>
 
-     <div className='sectionPanel col-12'>
-          <div className='section image'>RECOMMEND ALGORITHM</div>
-          <div className='content'>
-          Since the videos are not updated often, the priority of exposure was alternately based on genre, theme, popularity, and latest video. For the personalized recommended video, we added criteria such as the video you watched and the video you liked.
-          </div>
-          <img className='fitImage' src='assets/p4/p4_5.jpg' data-rjs="2"/>
-      </div>
-
-
-
-     <div className='sectionPanel col-12'>
-          <div className='section image'>COMMENTS OF EXPERTS</div>
-          <div className='content'>
-          We added a line of comments from experts to make the content more interesting and reliable.
-          </div>
-          <img className='fitImage' src='assets/p4/p4_6.jpg' data-rjs="2"/>
-      </div>
-
-
-
-
-     <div className='sectionPanel col-12'>
-          <div className='section image'>QA</div>
-          <div className='content'>
-          We added a line of comments from experts to make the content more interesting and reliable.
-          </div>
-          <img className='fitImage' src='assets/p4/p4_7.jpg' data-rjs="2"/>
-      </div>
-
-
-        <div className='sectionPanel col-12'>
-          <div className='fullPaddedSection grayBackground'>
-            <div className='container-fluid text-left'>
-              <div className='col-12'>
-                <div className='section image'>FINAL DIESIGN</div>
-                <div className='sectionImage'>
-                  <img className='fitImage' src='assets/p4/p4_13.png' data-rjs="2"/>
-                  </div>
-                  <div className='subtitle entry content'>Home </div>
-                  <div className='sectionImage'>
-                  <img className='fitImage' src='assets/p4/p4_8.jpg' data-rjs="2"/>
-                  </div>
-                  <div className='subtitle entry content'>Channel Home </div>
-                  <div className='sectionImage'>
-                  <img className='fitImage' src='assets/p4/p4_9.jpg' data-rjs="2"/>
-                  </div>
-                  <div className='subtitle entry content'>Content</div>
-                  <div className='sectionImage'>
-                  <img className='fitImage' src='assets/p4/p4_10.jpg' data-rjs="2"/>
-                  </div>
-                  <div className='subtitle entry content'>Mobile</div>
-                  <div className='sectionImage'>
-                  <img className='fitImage' src='assets/p4/p4_12.png' data-rjs="2"/>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className='sectionPanel col-12'>
-          <div className='fullPaddedSection conclusion'>
-            <div className='container-fluid text-left'>
-              <div className='col-12'>
-                <div className='section textOnly'>CONCLUSION</div>
-                <div className='content'>
-                                  The project was a first for a financial company to 
-                                  create an independent video streaming project. 
-                                  We conducted various UX tests on how to plan channels 
-                                  that fit the company's promotional direction and how to 
-                                  effectively expose them. In order to develop algorithms 
-                                  for effective content exposure, we designed algorithms by 
-                                    collaborating with data analysis team. Due to the nature 
-                                  of video files, various tests were required for each browser 
-                                  and device, and UX design was also customized.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <ProjectNav 
-        prev={{
-          href: '/project-c',
-          className: 'gd3',
-          imgUrl: 'assets/p3.png',
-          category: 'UI / UX Design',
-          title: 'Show me ID'
-        }}
-        next={{
-          href: '/project-a',
-          className: 'gd1',
-          imgUrl: 'assets/p1.png',
-          category: 'UI / UX Design',
-          title: 'I was here'
-        }}
-      />
-    </div>
+       <div className='sectionPanel col-12'>
+         <div className='fullPaddedSection conclusion'>
+           <div className='container-fluid text-left'>
+             <div className='col-12'>
+               <div className='section textOnly'>CONCLUSION</div>
+               <div className='content'>
+                                The project was a first for a financial company to 
+                                create an independent video streaming project. 
+                                We conducted various UX tests on how to plan channels 
+                                that fit the company's promotional direction and how to 
+                                effectively expose them. In order to develop algorithms 
+                                for effective content exposure, we designed algorithms by 
+                                  collaborating with data analysis team. Due to the nature 
+                                of video files, various tests were required for each browser 
+                                and device, and UX design was also customized.
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+       <ProjectNav 
+          prev={{
+            href: '/project-c',
+            className: 'gd3',
+            imgUrl: 'assets/p3.png',
+            category: 'UI / UX Design',
+            title: 'Show me ID'
+          }}
+          next={{
+            href: '/project-a',
+            className: 'gd1',
+            imgUrl: 'assets/p1.png',
+            category: 'UI / UX Design',
+            title: 'I was here'
+          }}
+       />
+     </div>
   }
 }
 
-export default ProjectD;
+export default ProjectE;

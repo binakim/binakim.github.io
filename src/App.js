@@ -11,6 +11,7 @@ import ProjectAPage from './ProjectAPage';
 import ProjectBPage from './ProjectBPage';
 import ProjectCPage from './ProjectCPage';
 import ProjectDPage from './ProjectDPage';
+import ProjectEPage from './ProjectEPage';
 import TopButton from './TopButton';
 import TopDetector from './TopDetector';
 
@@ -41,6 +42,7 @@ class App extends Component {
               <Route path='/project-b' component={ProjectBPage} />
               <Route path='/project-c' component={ProjectCPage} />
               <Route path='/project-d' component={ProjectDPage} />
+              <Route path='/project-e' component={ProjectEPage} />
               <Footer />
             </div>
           </div>
