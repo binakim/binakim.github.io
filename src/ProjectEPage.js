@@ -134,11 +134,17 @@ class ProjectE extends Component {
          </div>
        </div>
        <div className='sectionPanel col-12'>
-         <div className='section image'>WIREFRAME</div>
-         <div className='midPadding'>
-           <img className='fitImage' src='assets/p5/p5_3.png' data-rjs="2"/>
-           <img className='fitImage' src='assets/p5/p5_3_1.png' data-rjs="2"/>
-           <img className='fitImage' src='assets/p5/p5_3_2.png' data-rjs="2"/>
+         <div className='fullPaddedSection grayBackground'>
+           <div className='container-fluid text-left'>
+             <div className='col-12'>
+               <div className='section image'>WIREFRAME</div>
+               <div className='midPadding'>
+                 <img className='fitImage' src='assets/p5/p5_3.png' data-rjs="2"/>
+                 <img className='fitImage' src='assets/p5/p5_3_1.png' data-rjs="2"/>
+                 <img className='fitImage' src='assets/p5/p5_3_2.png' data-rjs="2"/>
+               </div>
+             </div>
+           </div>
          </div>
        </div>
        <div className='sectionPanel col-12'>
@@ -148,9 +154,15 @@ class ProjectE extends Component {
          </div>
        </div>
        <div className='sectionPanel col-12'>
-         <div className='section image'>COLOR</div>
-         <div className='midPadding'>
-           <img className='fitImage' src='assets/p5/p5_5.jpg' data-rjs="2"/>
+         <div className='fullPaddedSection grayBackground'>
+           <div className='container-fluid text-left'>
+             <div className='col-12'>
+               <div className='section image'>COLOR</div>
+               <div className='midPadding'>
+                 <img className='fitImage' src='assets/p5/p5_5.jpg' data-rjs="2"/>
+               </div>
+             </div>
+           </div>
          </div>
        </div>
        <div className='sectionPanel col-12'>
@@ -160,9 +172,15 @@ class ProjectE extends Component {
          </div>
        </div>
        <div className='sectionPanel col-12'>
-         <div className='section image'>TEXT TYPE</div>
-         <div className='midPadding'>
-           <img className='fitImage' src='assets/p5/p5_7.jpg' data-rjs="2"/>
+         <div className='fullPaddedSection grayBackground'>
+           <div className='container-fluid text-left'>
+             <div className='col-12'>
+               <div className='section image'>TEXT TYPE</div>
+               <div className='midPadding'>
+                 <img className='fitImage' src='assets/p5/p5_7.jpg' data-rjs="2"/>
+               </div>
+             </div>
+           </div>
          </div>
        </div>
        <div className='sectionPanel col-12'>
@@ -172,9 +190,15 @@ class ProjectE extends Component {
          </div>
        </div>
        <div className='sectionPanel col-12'>
-         <div className='section image'>TOOLTIP &amp; NOTIFICATION BAR &amp; ACCORDIAN TAB</div>
-         <div className='midPadding'>
-           <img className='fitImage' src='assets/p5/p5_9.png' data-rjs="2"/>
+         <div className='fullPaddedSection grayBackground'>
+           <div className='container-fluid text-left'>
+             <div className='col-12'>
+               <div className='section image'>TOOLTIP &amp; NOTIFICATION BAR &amp; ACCORDIAN TAB</div>
+               <div className='midPadding'>
+                 <img className='fitImage' src='assets/p5/p5_9.png' data-rjs="2"/>
+               </div>
+             </div>
+           </div>
          </div>
        </div>
        <div className='sectionPanel col-12'>
