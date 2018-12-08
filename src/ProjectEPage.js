@@ -120,44 +120,62 @@ class ProjectE extends Component {
            <div className='container-fluid text-left'>
              <div className='col-12'>
                <div className='section image'>INFORMATION ARCHITECTURE</div>
-               <img className='fitImage' src='assets/p5/p5_1.png' data-rjs="2"/>
+               <div className='midPadding'>
+                 <img className='fitImage' src='assets/p5/p5_1.png' data-rjs="2"/>
+               </div>
              </div>
            </div>
          </div>
        </div>
        <div className='sectionPanel col-12'>
          <div className='section image'>TASK FLOW</div>
-         <img className='fitImage' src='assets/p5/p5_2.png' data-rjs="2"/>
+         <div className='midPadding'>
+           <img className='fitImage' src='assets/p5/p5_2.png' data-rjs="2"/>
+         </div>
        </div>
        <div className='sectionPanel col-12'>
          <div className='section image'>WIREFRAME</div>
-         <img className='fitImage' src='assets/p5/p5_3.png' data-rjs="2"/>
-         <img className='fitImage' src='assets/p5/p5_3_1.png' data-rjs="2"/>
-         <img className='fitImage' src='assets/p5/p5_3_2.png' data-rjs="2"/>
+         <div className='midPadding'>
+           <img className='fitImage' src='assets/p5/p5_3.png' data-rjs="2"/>
+           <img className='fitImage' src='assets/p5/p5_3_1.png' data-rjs="2"/>
+           <img className='fitImage' src='assets/p5/p5_3_2.png' data-rjs="2"/>
+         </div>
        </div>
        <div className='sectionPanel col-12'>
          <div className='section image'>LOGO DESIGN</div>
-         <img className='fitImage' src='assets/p5/p5_4.jpg' data-rjs="2"/>
+         <div className='midPadding'>
+           <img className='fitImage' src='assets/p5/p5_4.jpg' data-rjs="2"/>
+         </div>
        </div>
        <div className='sectionPanel col-12'>
          <div className='section image'>COLOR</div>
-         <img className='fitImage' src='assets/p5/p5_5.jpg' data-rjs="2"/>
+         <div className='midPadding'>
+           <img className='fitImage' src='assets/p5/p5_5.jpg' data-rjs="2"/>
+         </div>
        </div>
        <div className='sectionPanel col-12'>
          <div className='section image'>FONT</div>
-         <img className='fitImage' src='assets/p5/p5_6.png' data-rjs="2"/>
+         <div className='midPadding'>
+           <img className='fitImage' src='assets/p5/p5_6.png' data-rjs="2"/>
+         </div>
        </div>
        <div className='sectionPanel col-12'>
          <div className='section image'>TEXT TYPE</div>
-         <img className='fitImage' src='assets/p5/p5_7.jpg' data-rjs="2"/>
+         <div className='midPadding'>
+           <img className='fitImage' src='assets/p5/p5_7.jpg' data-rjs="2"/>
+         </div>
        </div>
        <div className='sectionPanel col-12'>
          <div className='section image'>BUTTON &amp; INPUTS</div>
-         <img className='fitImage' src='assets/p5/p5_8.png' data-rjs="2"/>
+         <div className='midPadding'>
+           <img className='fitImage' src='assets/p5/p5_8.png' data-rjs="2"/>
+         </div>
        </div>
        <div className='sectionPanel col-12'>
          <div className='section image'>TOOLTIP &amp; NOTIFICATION BAR &amp; ACCORDIAN TAB</div>
-         <img className='fitImage' src='assets/p5/p5_9.png' data-rjs="2"/>
+         <div className='midPadding'>
+           <img className='fitImage' src='assets/p5/p5_9.png' data-rjs="2"/>
+         </div>
        </div>
        <div className='sectionPanel col-12'>
          <div className='section image'>FINAL DESIGN</div>

@@ -336,13 +336,18 @@
         transform: translate(-35%, 0);
       }
     }
+
+    .midPadding {
+      padding-left: 12%;
+      padding-right: 12%;
+    }
   }
 
   .section::after {
     background-image: linear-gradient(to right, transparent 50%, $skyblue-color 50%);
   }
 
-  .fullImage.gd4 img{
+  .fullImage.gd5 img{
     max-width: 800px;
     min-width: 300px;
     height: auto;
