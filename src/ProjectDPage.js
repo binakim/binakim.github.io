@@ -194,11 +194,11 @@ class ProjectD extends Component {
           title: 'Show me ID'
         }}
         next={{
-          href: '/project-a',
-          className: 'gd1',
-          imgUrl: 'assets/p1.png',
-          category: 'UI / UX Design',
-          title: 'I was here'
+          href: '/project-e',
+          className: 'gd5',
+          imgUrl: 'assets/p5.png',
+          category: 'Web Development / UI Design',
+          title: 'Penguin Island'
         }}
       />
     </div>

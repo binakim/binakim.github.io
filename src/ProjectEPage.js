@@ -28,12 +28,6 @@ class ProjectE extends Component {
           Service to see migration routes of penguins living in Antarctica changed by global warming
         </div>
       </div>
-      <div className='sectionPanel col-12'>
-          <div className='section textOnly'>INTRO</div>
-          <div className='content'>
-            --intro goes here--
-          </div>
-      </div>
 
       <div className='sectionPanel col-12'>
           <div className='section image'>OUR GOAL</div>
@@ -41,7 +35,6 @@ class ProjectE extends Component {
           Antarctic penguins begin moving north until April each year.
           Due to climate change (global warming), the range of ice in Antarctic decreasing year by year and the penguin habitat is getting worse. 'Penguin Island' protects the penguin habitat by tracking the penguins' migration.
           </div>
-          <img className='fitImage' src='assets/p5/p5_1.jpg' data-rjs="2"/>
       </div>
 
       <div className='sectionPanel col-12'>
@@ -62,7 +55,6 @@ class ProjectE extends Component {
               </div>
             </div>
           </div>          
-          <img className='fitImage' src='assets/p5/p5_1.jpg' data-rjs="2"/>
       </div>
 
       <div className='sectionPanel col-12'>
@@ -90,7 +82,6 @@ class ProjectE extends Component {
               </div>
             </div>
           </div>          
-          <img className='fitImage' src='assets/p5/p5_1.jpg' data-rjs="2"/>
       </div>
 
       <div className='sectionPanel col-12'>
@@ -117,34 +108,11 @@ class ProjectE extends Component {
               </div>
             </div>
           </div>          
-          <img className='fitImage' src='assets/p5/p5_1.jpg' data-rjs="2"/>
-      </div>
-      <div className='sectionPanel col-12'>
-        <div className='fullPaddedSection grayBackground'>
-          <div className='container-fluid text-left'>
-            <div className='col-12'>
-              <div className='section image'>DRAFT DESIGN</div>
-              <div className='content'>
-              After the first horizontal scrolling design, we proceeded with user testing.
-              </div>
-              <div className='subtitle entry content'>Main Home </div>
-              <div className='content'>
-              A horizontal scrolling site was designed to change the default grid according to the content importance.
-              </div>
-              <img className='fitImage' src='assets/p5/p5_2.jpg' data-rjs="2"/>
-              <div className='subtitle entry content'>Channel List </div>
-              <div className='content'>
-              Designed a channel list page to view program introduction and episodes.
-              </div>
-              <img className='fitImage' src='assets/p5/p5_3.jpg' data-rjs="2"/>
-            </div>
-          </div>
-        </div>
       </div>
 
       <div className='sectionPanel col-12'>
         <div className='section image'>IDEA SKETCH</div>
-        <img className='fitImage' src='assets/p5/p5_15.png' data-rjs="2"/>
+        <img className='fitImage' src='assets/p5/p5_0.jpg' data-rjs="2"/>
       </div>
 
        <div className='sectionPanel col-12'>
@@ -152,46 +120,49 @@ class ProjectE extends Component {
            <div className='container-fluid text-left'>
              <div className='col-12'>
                <div className='section image'>INFORMATION ARCHITECTURE</div>
-               <img className='fitImage' src='assets/p5/p5_14.png' data-rjs="2"/>
+               <img className='fitImage' src='assets/p5/p5_1.png' data-rjs="2"/>
              </div>
            </div>
          </div>
        </div>
        <div className='sectionPanel col-12'>
          <div className='section image'>TASK FLOW</div>
-         <img className='fitImage' src='assets/p5/p5_11.jpg' data-rjs="2"/>
+         <img className='fitImage' src='assets/p5/p5_2.png' data-rjs="2"/>
        </div>
        <div className='sectionPanel col-12'>
          <div className='section image'>WIREFRAME</div>
-         <img className='fitImage' src='assets/p5/p5_11.jpg' data-rjs="2"/>
+         <img className='fitImage' src='assets/p5/p5_3.png' data-rjs="2"/>
+         <img className='fitImage' src='assets/p5/p5_3_1.png' data-rjs="2"/>
+         <img className='fitImage' src='assets/p5/p5_3_2.png' data-rjs="2"/>
        </div>
        <div className='sectionPanel col-12'>
          <div className='section image'>LOGO DESIGN</div>
-         <img className='fitImage' src='assets/p5/p5_11.jpg' data-rjs="2"/>
+         <img className='fitImage' src='assets/p5/p5_4.jpg' data-rjs="2"/>
        </div>
        <div className='sectionPanel col-12'>
          <div className='section image'>COLOR</div>
-         <img className='fitImage' src='assets/p5/p5_11.jpg' data-rjs="2"/>
+         <img className='fitImage' src='assets/p5/p5_5.jpg' data-rjs="2"/>
        </div>
        <div className='sectionPanel col-12'>
          <div className='section image'>FONT</div>
-         <img className='fitImage' src='assets/p5/p5_11.jpg' data-rjs="2"/>
+         <img className='fitImage' src='assets/p5/p5_6.png' data-rjs="2"/>
        </div>
        <div className='sectionPanel col-12'>
          <div className='section image'>TEXT TYPE</div>
-         <img className='fitImage' src='assets/p5/p5_11.jpg' data-rjs="2"/>
+         <img className='fitImage' src='assets/p5/p5_7.jpg' data-rjs="2"/>
        </div>
        <div className='sectionPanel col-12'>
          <div className='section image'>BUTTON &amp; INPUTS</div>
-         <img className='fitImage' src='assets/p5/p5_11.jpg' data-rjs="2"/>
+         <img className='fitImage' src='assets/p5/p5_8.png' data-rjs="2"/>
        </div>
        <div className='sectionPanel col-12'>
          <div className='section image'>TOOLTIP &amp; NOTIFICATION BAR &amp; ACCORDIAN TAB</div>
-         <img className='fitImage' src='assets/p5/p5_11.jpg' data-rjs="2"/>
+         <img className='fitImage' src='assets/p5/p5_9.png' data-rjs="2"/>
        </div>
        <div className='sectionPanel col-12'>
          <div className='section image'>FINAL DESIGN</div>
-         <img className='fitImage' src='assets/p5/p5_11.jpg' data-rjs="2"/>
+         <img className='fitImage' src='assets/p5/p5_10.png' data-rjs="2"/>
+         <img className='fitImage' src='assets/p5/p5_11.png' data-rjs="2"/>
        </div>
        <div className='sectionPanel col-12'>
          <div className='fullPaddedSection conclusion'>
@@ -215,11 +186,11 @@ class ProjectE extends Component {
        </div>
        <ProjectNav 
           prev={{
-            href: '/project-c',
-            className: 'gd3',
-            imgUrl: 'assets/p3.png',
-            category: 'UI / UX Design',
-            title: 'Show me ID'
+            href: '/project-d',
+            className: 'gd4',
+            imgUrl: 'assets/p4.png',
+            category: 'UX Design',
+            title: 'Channel Hyundai Card'
           }}
           next={{
             href: '/project-a',

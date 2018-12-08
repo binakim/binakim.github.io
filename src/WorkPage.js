@@ -35,7 +35,7 @@ export default () => {
       <div className='workPanelTitle'>Channel Hyundai Card</div>
       <div className='workPanelDescription'>A video streaming website for Hyundai Card Branding and Marketing group.</div>
     </WorkPanel>
-    <WorkPanel target='/project-e' backgroundStyle='gd4' imagePath='assets/p4.png' last={ true}>
+    <WorkPanel target='/project-e' backgroundStyle='gd5' imagePath='assets/p5.png' last={ true}>
       <div className='workPanelCategory'>Web Development / UI Design</div>
       <div className='workPanelTitle'>Penguin Island</div>
       <div className='workPanelDescription'>A video streaming website for Hyundai Card Branding and Marketing group.</div>

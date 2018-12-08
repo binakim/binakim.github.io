@@ -331,8 +331,9 @@
 
     .gd5 {
       img {
-        width: 75%;
-        transform: translate(-28%, 0);
+        width: 50%;
+        height: auto;
+        transform: translate(-35%, 0);
       }
     }
   }
@@ -840,7 +841,7 @@
   }
   .gd5 > img {
     transform: translate(-50%, -40%);
-    width: 80%;
+    width: 70%;
   }
 }
 
