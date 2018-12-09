@@ -38,7 +38,7 @@ export default () => {
     <WorkPanel target='/project-e' backgroundStyle='gd5' imagePath='assets/p5.png' last={ true}>
       <div className='workPanelCategory'>Web Development / UI Design</div>
       <div className='workPanelTitle'>Penguin Island</div>
-      <div className='workPanelDescription'>A video streaming website for Hyundai Card Branding and Marketing group.</div>
+      <div className='workPanelDescription'>Service to see migration routes of penguins living in Antarctica changed by global warming.</div>
     </WorkPanel>
   </div>
 }
