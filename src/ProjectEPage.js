@@ -35,20 +35,26 @@ class ProjectE extends Component {
           Antarctic penguins begin moving north until April each year.
           Due to climate change (global warming), the range of ice in Antarctic decreasing year by year and the penguin habitat is getting worse. 'Penguin Island' protects the penguin habitat by tracking the penguins' migration.
           </div>
+        <div className='projectButton'>
+          <a href="http://binakimuxdesign.com/aau/penguinisland/index.html" target="new">
+          <button type='button' className='btn'>Project Link</button>
+          </a>
+        </div>
+
       </div>
 
       <div className='sectionPanel col-12'>
           <div className='section image'>TARGET USER</div>
           <div className='row'>
             <div className='entry col-12 col-md-6'>
-              <div className='subtitle entry content'>Primary</div>
+              <div className='sectionSubtitle'>Primary</div>
               <div className='entry content'>
               Who cares about the environment and loves animals.<br/>
               Age: Late 10~ Late 30 years0
               </div>
             </div>
             <div className='entry col-12 col-md-6'>
-              <div className='subtitle entry content'>Secondary</div>
+              <div className='sectionSubtitle'>Secondary</div>
               <div className='entry content'>
               Who is interested in a penguin.<br/>
               Age: Elementary school students
@@ -61,22 +67,22 @@ class ProjectE extends Component {
           <div className='section image'>COMPATIBILITY</div>
           <div className='row'>
             <div className='entry col-12 col-md-6'>
-              <div className='subtitle entry content'>Device</div>
+              <div className="sectionSubtitle">Device</div>
               <div className='entry content'>
               iPhone, Android phone / Wifi + Cellular
               </div>
-              <div className='subtitle entry content'>Browser</div>
+              <div className="sectionSubtitle">Browser</div>
               <div className='entry content'>
               Google Chrome, Safari iOS
               </div>
             </div>
             <div className='entry col-12 col-md-6'>
-              <div className='subtitle entry content'>Aspect ratio</div>
+              <div className="sectionSubtitle">Aspect ratio</div>
               <div className='entry content'>
       Primary: 16:9 ( Most common / iPhone 6,7,8 Plus, Android phones )<br/>
       Secondary: 19.5:9 ( iPhone X )
               </div>
-              <div className='subtitle entry content'>Tracker Technology</div>
+              <div className="sectionSubtitle">Tracker Technology</div>
               <div className='entry content'>
               GPS+Wireless Access Pointss
               </div>
@@ -88,11 +94,11 @@ class ProjectE extends Component {
           <div className='section image'>TASKS</div>
           <div className='row'>
             <div className='entry col-12 col-md-6'>
-              <div className='subtitle entry content'>1. The migratory routes</div>
+              <div className="sectionSubtitle">1. The migratory routes</div>
               <div className='entry content'>
               Time: Year / Month/ Live (Optional)<br/> View: Full, Zoom
               </div>
-              <div className='subtitle entry content'>2. Types of Penguins</div>
+              <div className="sectionSubtitle">2. Types of Penguins</div>
               <div className='entry content'>
               Habitat information<br/>
               Characteristic<br/>
@@ -101,9 +107,9 @@ class ProjectE extends Component {
               </div>
             </div>
             <div className='entry col-12 col-md-6'>
-              <div className='subtitle entry content'>3. Antarctic map changes due to warming</div>
+              <div className="sectionSubtitle">3. Antarctic map changes due to warming</div>
               <div className='entry content'>By year</div>
-              <div className='subtitle entry content'>4.Donation (Optional)</div>
+              <div className="sectionSubtitle">4.Donation (Optional)</div>
               <div className='entry content'>
               </div>
             </div>
@@ -153,35 +159,31 @@ class ProjectE extends Component {
            <img className='fitImage' src='assets/p5/p5_4.jpg' data-rjs="2"/>
          </div>
        </div>
+
+       <div className='sectionPanel col-12'>
+          <div className='section image'>COLOR</div>
+          <div className='midPadding'>
+            <img className='fitImage' src='assets/p5/p5_5.jpg' data-rjs="2"/>
+          </div>
+       </div>
+
        <div className='sectionPanel col-12'>
          <div className='fullPaddedSection grayBackground'>
            <div className='container-fluid text-left'>
              <div className='col-12'>
-               <div className='section image'>COLOR</div>
-               <div className='midPadding'>
-                 <img className='fitImage' src='assets/p5/p5_5.jpg' data-rjs="2"/>
-               </div>
+             <div className='section image'>FONT</div>
+             <div className='midPadding'>
+               <img className='fitImage' src='assets/p5/p5_6.png' data-rjs="2"/>
+             </div>               
              </div>
            </div>
          </div>
        </div>
        <div className='sectionPanel col-12'>
-         <div className='section image'>FONT</div>
-         <div className='midPadding'>
-           <img className='fitImage' src='assets/p5/p5_6.png' data-rjs="2"/>
-         </div>
-       </div>
-       <div className='sectionPanel col-12'>
-         <div className='fullPaddedSection grayBackground'>
-           <div className='container-fluid text-left'>
-             <div className='col-12'>
                <div className='section image'>TEXT TYPE</div>
                <div className='midPadding'>
                  <img className='fitImage' src='assets/p5/p5_7.jpg' data-rjs="2"/>
                </div>
-             </div>
-           </div>
-         </div>
        </div>
        <div className='sectionPanel col-12'>
          <div className='section image'>BUTTON &amp; INPUTS</div>

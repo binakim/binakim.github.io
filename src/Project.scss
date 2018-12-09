@@ -358,6 +358,37 @@
   }
 }
 
+
+.projectButton {
+  // a:hover::after {
+  //   content: none;
+  // }
+
+  .btn {
+    line-height: 0;
+    margin-bottom: 0;
+    background-color: $skyblue-color;
+    border-color: $skyblue-color;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    text-align: center;
+
+    @media (min-width: 1px) {
+      width: 150px;
+      padding: 21px;
+    }
+
+    @media (min-width: 768px) {
+      padding: 23px;
+      width: 160px;
+      font-size: 20px;
+    }
+  }
+}
+
+
+
 .project {
   @media (min-width: 1px) {
     .topPanelCategory {
