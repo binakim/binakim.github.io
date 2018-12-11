@@ -145,9 +145,9 @@ class ProjectE extends Component {
              <div className='col-12'>
                <div className='section image'>WIREFRAME</div>
                <div className='midPadding'>
-                 <img className='fitImage' src='assets/p5/p5_3.png' data-rjs="2"/>
-                 <img className='fitImage' src='assets/p5/p5_3_1.png' data-rjs="2"/>
-                 <img className='fitImage' src='assets/p5/p5_3_2.png' data-rjs="2"/>
+                 <img className='fitImage title content' src='assets/p5/p5_3.png' data-rjs="2"/>
+                 <img className='fitImage title content' src='assets/p5/p5_3_1.png' data-rjs="2"/>
+                 <img className='fitImage title content' src='assets/p5/p5_3_2.png' data-rjs="2"/>
                </div>
              </div>
            </div>
@@ -207,26 +207,6 @@ class ProjectE extends Component {
          <div className='section image'>FINAL DESIGN</div>
          <img className='fitImage' src='assets/p5/p5_10.png' data-rjs="2"/>
          <img className='fitImage' src='assets/p5/p5_11.png' data-rjs="2"/>
-       </div>
-       <div className='sectionPanel col-12'>
-         <div className='fullPaddedSection conclusion'>
-           <div className='container-fluid text-left'>
-             <div className='col-12'>
-               <div className='section textOnly'>CONCLUSION</div>
-               <div className='content'>
-                                The project was a first for a financial company to 
-                                create an independent video streaming project. 
-                                We conducted various UX tests on how to plan channels 
-                                that fit the company's promotional direction and how to 
-                                effectively expose them. In order to develop algorithms 
-                                for effective content exposure, we designed algorithms by 
-                                  collaborating with data analysis team. Due to the nature 
-                                of video files, various tests were required for each browser 
-                                and device, and UX design was also customized.
-               </div>
-             </div>
-           </div>
-         </div>
        </div>
        <ProjectNav 
           prev={{
