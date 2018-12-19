@@ -1,7 +1,7 @@
 @import 'node_modules/retinajs/dist/_retina.scss';
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 
-$primary-color: rgb(80,227,194);
+$primary-color: rgb(251,192,45);
 $text-color: rgb(43,43,43);
 $gray-color: rgb(238,242,245);
 $black-color: rgb(25,25,25);
@@ -237,7 +237,7 @@ $dark-gray-color: #DEDEDE;
 
   a:hover::after {
     content: "";
-    background-image: linear-gradient(to right, transparent 50%, #50e3c2 50%);
+    background-image: linear-gradient(to right, transparent 50%, $primary-color 50%);
     background-position: -100% 100%;
     background-size: 200% 100%;
     background-repeat: repeat-x;
@@ -272,7 +272,7 @@ a {
 
 .highlight-drop {
   content: "";
-  background-image: linear-gradient(to right, transparent 50%, #50e3c2 50%);
+  background-image: linear-gradient(to right, transparent 50%, $primary-color 50%);
   background-position: -100% 100%;
   background-size: 200% 100%;
   background-repeat: repeat-x;
