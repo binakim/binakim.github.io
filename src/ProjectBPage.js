@@ -459,13 +459,13 @@ class ProjectB extends Component {
           category: 'UI / UX Design',
           title: 'I was here'
         }}
-        next={{
-          href: '/project-c',
-          className: 'gd3',
-          imgUrl: 'assets/p3.png',
-          category: 'UI / UX Design',
-          title: 'Show me ID'
-        }}
+      next={{
+        href: '/project-d',
+        className: 'gd4',
+        imgUrl: 'assets/p4.png',
+        category: 'UX Design',
+        title: 'Channel Hyundai Card'
+      }}
       />
     </div>
     );

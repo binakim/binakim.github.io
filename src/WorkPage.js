@@ -25,20 +25,24 @@ export default () => {
       <div className='workPanelTitle'>Social Table</div>
       <div className='workPanelDescription'>Social table is an app that provides an effective solution for reducing food waste.</div>
     </WorkPanel>
+    {/*
     <WorkPanel target='/project-c' backgroundStyle='gd3' imagePath='assets/p3.png'>
       <div className='workPanelCategory'>UI / UX Design</div>
       <div className='workPanelTitle'>Show Me ID</div>
       <div className='workPanelDescription'>Show me ID is an app that provides ID verification for the web and products</div>
     </WorkPanel>
-    <WorkPanel target='/project-d' backgroundStyle='gd4' imagePath='assets/p4.png' right={ true }>
+    */}
+    <WorkPanel target='/project-d' backgroundStyle='gd4' imagePath='assets/p4.png'>
       <div className='workPanelCategory'>UX Design</div>
       <div className='workPanelTitle'>Channel Hyundai Card</div>
       <div className='workPanelDescription'>A video streaming website for Hyundai Card Branding and Marketing group.</div>
     </WorkPanel>
+    {/*
     <WorkPanel target='/project-e' backgroundStyle='gd5' imagePath='assets/p5.png' last={ true}>
       <div className='workPanelCategory'>Web Development / UI Design</div>
       <div className='workPanelTitle'>Penguin Island</div>
       <div className='workPanelDescription'>Service to see migration routes of penguins living in Antarctica changed by global warming.</div>
     </WorkPanel>
+    */}
   </div>
 }

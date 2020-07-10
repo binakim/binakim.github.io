@@ -400,11 +400,11 @@ class ProjectA extends Component {
       </div>
       <ProjectNav 
         prev={{
-          href: '/project-e',
-          className: 'gd5',
-          imgUrl: 'assets/p5.png',
-          category: 'Web Development / UI Design',
-          title: 'Penguin Island'
+          href: '/project-d',
+          className: 'gd4',
+          imgUrl: 'assets/p4.png',
+          category: 'UX Design',
+          title: 'Channel Hyundai Card'
         }}
         next={{
           href: '/project-b',
